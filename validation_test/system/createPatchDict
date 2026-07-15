@@ -1,0 +1,34 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  Version:     12
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      createPatchDict;
+}
+
+pointSync true;
+
+patches
+(
+    gate_1
+    {
+        type patch;
+        constructFrom box;
+        box (0.073000 0.035500 -0.002600) (0.077000 0.039500 0.001400);
+    }
+    gate_2
+    {
+        type patch;
+        constructFrom box;
+        box (0.073000 0.035500 -0.001400) (0.077000 0.039500 0.002600);
+    }
+    gate_3
+    {
+        type patch;
+        constructFrom box;
+        box (0.073000 0.035500 -0.001400) (0.077000 0.039500 0.002600);
+    }
+);

@@ -1,0 +1,126 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  Version:     12
+  Format:      ascii
+  Class:       dictionary
+  Object:      snappyHexMeshDict
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      snappyHexMeshDict;
+}
+
+castellatedMesh true;
+snap            true;
+addLayers       true;
+
+geometry
+{
+    case_model.stl
+    {
+        type triSurfaceMesh;
+        name case_model;
+    }
+}
+
+castellatedMeshControls
+{
+    maxLocalCells 1000000;
+    maxGlobalCells 2000000;
+    minRefinementCells 100;
+    nCellsBetweenLevels 3;
+
+    features
+    (
+    );
+
+    refinementSurfaces
+    {
+        case_model
+        {
+            # Curvature-adaptive refinement: High density on features (Level 2 to 3), A-Surface kept at Level 0
+            level (0 3);
+            patchInfo
+            {
+                type wall;
+            }
+        }
+    }
+
+    resolveFeatureAngle 30;
+
+    refinementRegions
+    {
+        # Add refinement for dynamic gate entry zone
+        case_model
+        {
+            mode distance;
+            levels ((0.002 3) (0.005 2)); # gate radial boundary refinement
+        }
+    }
+
+    locationInMesh (-0.060000 -0.030000 0.001800);
+    allowFreeStandingZoneFaces true;
+}
+
+snapControls
+{
+    nSolveIter 30;
+    relaxIter 5;
+    nSmoothPatch 3;
+    snapFraction 0.5;
+    snapAreaFraction 0.3;
+    nFeatureSnapIter 10;
+    implicitFeatureSnap false;
+    explicitFeatureSnap true;
+    multiRegionFeatureSnap false;
+}
+
+addLayersControls
+{
+    relativeSizes true;
+    layers
+    {
+        "case_model.*"
+        {
+            nSurfaceLayers 3;
+        }
+    }
+    expansionRatio 1.2;
+    finalLayerThickness 0.3;
+    minThickness 0.1;
+    nGrow 1;
+    featureAngle 60;
+    slipFraction 0.5;
+    nDepthIter 5;
+    nRelaxIter 5;
+    nSmoothSurfaceNormals 1;
+    nSmoothNormals 3;
+    nSmoothThickness 10;
+    maxFaceThicknessRatio 0.5;
+    maxThicknessToMedialRatio 0.3;
+    minMedianAxisAngle 90;
+    nBufferCellsNoExtrude 0;
+    nLayerIter 50;
+    nRefineIter 0;
+}
+
+meshQualityControls
+{
+    maxNonOrtho 65;
+    maxBoundarySkewness 20;
+    maxInternalSkewness 4;
+    maxConcave 80;
+    minVol 1e-13;
+    minTetDecapitation 1e-15;
+    minArea -1;
+    minTwist 0.02;
+    minDeterminant 0.001;
+    minFaceWeight 0.02;
+    minVolRatio 0.01;
+    mustKeepValue true;
+}
+
+mergeTolerance 1e-6;

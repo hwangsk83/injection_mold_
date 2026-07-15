@@ -1,0 +1,90 @@
+{
+    "mesh": {
+        "expert_mesh_enabled": false,
+        "global_mesh_size_mm": 4.0,
+        "boundary_layer_count": 2,
+        "mesh_pin_points": [],
+        "mesh_quality_target": 0.7,
+        "mesh_max_skewness": 0.85
+    },
+    "material": {
+        "selected_material_name": "ABS  [Generic]",
+        "selected_material_family": "ABS",
+        "mat_melt_temp_k": 563.15,
+        "material_properties": {
+            "resin_family": "ABS",
+            "CrossWLF": {
+                "n": 0.35,
+                "tau_star": 280000.0,
+                "D1": 380000000000.0,
+                "D2": 263.15,
+                "D3": 0.0,
+                "A1": 28.5,
+                "A2": 51.6
+            },
+            "Tait": {
+                "b1m": 0.001,
+                "b2m": 1e-06,
+                "b3m": 120000000.0,
+                "b4m": 0.004,
+                "b5": 263.15,
+                "b6": 0.0,
+                "b7": 0.0,
+                "b8": 0.0,
+                "b9": 0.0,
+                "C_tait": 0.0894
+            },
+            "Thermal": {
+                "Cp_poly": 2100.0,
+                "k_poly": 0.18,
+                "Tg": 378.15,
+                "Tm": 513.15
+            },
+            "Mechanical": {
+                "YoungsModulus": 2400.0,
+                "PoissonsRatio": 0.35,
+                "CTE": 8e-05
+            },
+            "_grade_name": "ABS",
+            "_supplier": "Generic",
+            "_db_category": "Commercial_UDB_DB"
+        }
+    },
+    "process": {
+        "expert_process_enabled": false,
+        "stage_1_pressure_mpa": 100.0,
+        "stage_1_time_s": 1.5,
+        "stage_2_pressure_mpa": 80.0,
+        "stage_2_time_s": 3.0,
+        "stage_3_pressure_mpa": 40.0,
+        "stage_3_time_s": 2.0,
+        "melt_temp_k": 563.15,
+        "mold_temp_k": 373.15,
+        "injection_speed_mps": 0.25,
+        "vp_switchover_pos_mm": 10.0,
+        "cushion_mm": 5.0
+    },
+    "structural": {
+        "fatigue_cycles": 100000,
+        "stress_ratio": 0.1,
+        "fracture_toughness_mpa_m05": 2.5,
+        "czm_gc": 1.0,
+        "czm_sigma_max": 50.0,
+        "homogenization_method": "Halpin-Tsai",
+        "fiber_volume_fraction": 0.112,
+        "fiber_aspect_ratio": 25.0,
+        "fiber_modulus_mpa": 72000.0
+    },
+    "expert_solver": {
+        "expert_solver_enabled": false,
+        "relaxation_factor": 0.7,
+        "n_outer_correctors": 1,
+        "n_correctors": 2,
+        "n_non_orthogonal": 1,
+        "max_iter_solver": 1000,
+        "convergence_tolerance": 1e-06,
+        "fracture_coupling_coeff": 1.0,
+        "explicit_time_step_s": 0.0,
+        "mucell_gas_fraction": 0.05
+    }
+}

@@ -1,0 +1,58 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  Version:     12
+  Format:      ascii
+  Class:       dictionary
+  Object:      blockMeshDict
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      blockMeshDict;
+}
+scale 0.001;
+
+vertices
+(
+    (0 0 0)    (150 0 0)    (150 75 0)    (0 75 0)
+    (0 0 1.2)  (150 0 1.2)  (150 75 1.2)  (0 75 1.2)
+);
+
+blocks
+(
+    hex (0 1 2 3 4 5 6 7) (30 15 6) simpleGrading (1 1 1)
+);
+
+edges ();
+
+boundary
+(
+    gate_inlet
+    {
+        type patch;
+        faces
+        (
+            (0 4 7 3)
+        );
+    }
+    outlet
+    {
+        type patch;
+        faces
+        (
+            (1 2 6 5)
+        );
+    }
+    walls
+    {
+        type wall;
+        faces
+        (
+            (0 1 5 4)
+            (3 2 6 7)
+            (0 1 2 3)
+            (4 5 6 7)
+        );
+    }
+);

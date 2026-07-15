@@ -1,0 +1,14 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  Version:     12
+  Format:      ascii
+  Class:       dictionary
+  Object:      meshQualityDict
+\*---------------------------------------------------------------------------*/
+FoamFile
+{{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      meshQualityDict;
+}}
+#includeEtc "caseDicts/meshQualityDict"

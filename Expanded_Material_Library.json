@@ -1,0 +1,3722 @@
+{
+  "schema_version": "3.0",
+  "total_materials": 93,
+  "materials": [
+    {
+      "grade": "SABIC-Lexan-141R",
+      "family": "PC",
+      "desc": "General Purpose PC",
+      "CrossWLF": {
+        "n": 0.3,
+        "tau_star": 180000.0,
+        "D1": 24000000000000.0,
+        "D2": 413.15,
+        "D3": 0,
+        "A1": 31.2,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.0009,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 413.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2000,
+        "k_poly": 0.2,
+        "Tg": 423.15,
+        "Tm": 573.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2200,
+        "PoissonsRatio": 0.37,
+        "CTE": 6.5e-05
+      }
+    },
+    {
+      "grade": "SABIC-Lexan-3412R",
+      "family": "PC",
+      "desc": "PC+GF20",
+      "CrossWLF": {
+        "n": 0.3,
+        "tau_star": 180000.0,
+        "D1": 24000000000000.0,
+        "D2": 413.15,
+        "D3": 0,
+        "A1": 31.2,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.0009,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 413.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2000,
+        "k_poly": 0.2,
+        "Tg": 423.15,
+        "Tm": 573.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 5800,
+        "PoissonsRatio": 0.37,
+        "CTE": 3.2e-05
+      },
+      "Additives": {
+        "filler_type": "Fiber",
+        "filler_name": "GlassFiber",
+        "weight_fraction": 0.2,
+        "volume_fraction": 0.112,
+        "aspect_ratio": 25.0,
+        "filler_modulus_MPa": 72000,
+        "filler_CTE": 5e-06,
+        "filler_poisson": 0.2,
+        "matrix_grade": ""
+      }
+    },
+    {
+      "grade": "SABIC-Lexan-3413R",
+      "family": "PC",
+      "desc": "PC+GF30",
+      "CrossWLF": {
+        "n": 0.33,
+        "tau_star": 180000.0,
+        "D1": 24000000000000.0,
+        "D2": 413.15,
+        "D3": 0,
+        "A1": 31.2,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.0009,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 413.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2000,
+        "k_poly": 0.2,
+        "Tg": 423.15,
+        "Tm": 573.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 8500,
+        "PoissonsRatio": 0.37,
+        "CTE": 2.5e-05
+      },
+      "Additives": {
+        "filler_type": "Fiber",
+        "filler_name": "GlassFiber",
+        "weight_fraction": 0.3,
+        "volume_fraction": 0.168,
+        "aspect_ratio": 25.0,
+        "filler_modulus_MPa": 72000,
+        "filler_CTE": 5e-06,
+        "filler_poisson": 0.2,
+        "matrix_grade": ""
+      }
+    },
+    {
+      "grade": "SABIC-Lexan-3414R",
+      "family": "PC",
+      "desc": "PC+GF40",
+      "CrossWLF": {
+        "n": 0.35,
+        "tau_star": 180000.0,
+        "D1": 24000000000000.0,
+        "D2": 413.15,
+        "D3": 0,
+        "A1": 31.2,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.0009,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 413.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2000,
+        "k_poly": 0.2,
+        "Tg": 423.15,
+        "Tm": 573.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 11000,
+        "PoissonsRatio": 0.37,
+        "CTE": 2e-05
+      },
+      "Additives": {
+        "filler_type": "Fiber",
+        "filler_name": "GlassFiber",
+        "weight_fraction": 0.45,
+        "volume_fraction": 0.252,
+        "aspect_ratio": 25.0,
+        "filler_modulus_MPa": 72000,
+        "filler_CTE": 5e-06,
+        "filler_poisson": 0.2,
+        "matrix_grade": ""
+      }
+    },
+    {
+      "grade": "SABIC-Cycoloy-C1200HF",
+      "family": "PC",
+      "desc": "PC-ABS Blend",
+      "CrossWLF": {
+        "n": 0.34,
+        "tau_star": 180000.0,
+        "D1": 1500000000000.0,
+        "D2": 413.15,
+        "D3": 0,
+        "A1": 31.2,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.0009,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 413.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2000,
+        "k_poly": 0.2,
+        "Tg": 423.15,
+        "Tm": 573.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2600,
+        "PoissonsRatio": 0.37,
+        "CTE": 7e-05
+      }
+    },
+    {
+      "grade": "SABIC-Cycoloy-C6600",
+      "family": "PC",
+      "desc": "PC-ABS FR",
+      "CrossWLF": {
+        "n": 0.35,
+        "tau_star": 180000.0,
+        "D1": 1800000000000.0,
+        "D2": 413.15,
+        "D3": 0,
+        "A1": 31.2,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.0009,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 413.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2000,
+        "k_poly": 0.2,
+        "Tg": 423.15,
+        "Tm": 573.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2800,
+        "PoissonsRatio": 0.37,
+        "CTE": 6.8e-05
+      }
+    },
+    {
+      "grade": "SABIC-Lexan-940",
+      "family": "PC",
+      "desc": "PC-FR (V0)",
+      "CrossWLF": {
+        "n": 0.31,
+        "tau_star": 180000.0,
+        "D1": 24000000000000.0,
+        "D2": 413.15,
+        "D3": 0,
+        "A1": 31.2,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00088,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 413.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2000,
+        "k_poly": 0.2,
+        "Tg": 423.15,
+        "Tm": 573.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2400,
+        "PoissonsRatio": 0.37,
+        "CTE": 6.5e-05
+      }
+    },
+    {
+      "grade": "SABIC-Lexan-LS2",
+      "family": "PC",
+      "desc": "PC Light Diffusion",
+      "CrossWLF": {
+        "n": 0.3,
+        "tau_star": 180000.0,
+        "D1": 24000000000000.0,
+        "D2": 413.15,
+        "D3": 0,
+        "A1": 31.2,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.0009,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 413.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2000,
+        "k_poly": 0.2,
+        "Tg": 423.15,
+        "Tm": 573.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2200,
+        "PoissonsRatio": 0.37,
+        "CTE": 6.5e-05
+      }
+    },
+    {
+      "grade": "SABIC-Lexan-EXL1414",
+      "family": "PC",
+      "desc": "PC-Siloxane Copolymer",
+      "CrossWLF": {
+        "n": 0.29,
+        "tau_star": 180000.0,
+        "D1": 24000000000000.0,
+        "D2": 413.15,
+        "D3": 0,
+        "A1": 31.2,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.0009,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 413.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2000,
+        "k_poly": 0.2,
+        "Tg": 423.15,
+        "Tm": 573.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2100,
+        "PoissonsRatio": 0.37,
+        "CTE": 6.5e-05
+      }
+    },
+    {
+      "grade": "TEIJIN-Panlite-L-1225L",
+      "family": "PC",
+      "desc": "PC Standard",
+      "CrossWLF": {
+        "n": 0.3,
+        "tau_star": 180000.0,
+        "D1": 22000000000000.0,
+        "D2": 413.15,
+        "D3": 0,
+        "A1": 31.2,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.0009,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 413.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2000,
+        "k_poly": 0.2,
+        "Tg": 423.15,
+        "Tm": 573.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2300,
+        "PoissonsRatio": 0.37,
+        "CTE": 6.5e-05
+      }
+    },
+    {
+      "grade": "TEIJIN-Panlite-G-3430H",
+      "family": "PC",
+      "desc": "PC+GF30 HF",
+      "CrossWLF": {
+        "n": 0.33,
+        "tau_star": 180000.0,
+        "D1": 24000000000000.0,
+        "D2": 413.15,
+        "D3": 0,
+        "A1": 31.2,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.0009,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 413.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2000,
+        "k_poly": 0.2,
+        "Tg": 423.15,
+        "Tm": 573.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 8200,
+        "PoissonsRatio": 0.37,
+        "CTE": 2.6e-05
+      },
+      "Additives": {
+        "filler_type": "Fiber",
+        "filler_name": "GlassFiber",
+        "weight_fraction": 0.3,
+        "volume_fraction": 0.168,
+        "aspect_ratio": 25.0,
+        "filler_modulus_MPa": 72000,
+        "filler_CTE": 5e-06,
+        "filler_poisson": 0.2,
+        "matrix_grade": ""
+      }
+    },
+    {
+      "grade": "Covestro-Makrolon-2405",
+      "family": "PC",
+      "desc": "PC Low Viscosity",
+      "CrossWLF": {
+        "n": 0.28,
+        "tau_star": 180000.0,
+        "D1": 20000000000000.0,
+        "D2": 413.15,
+        "D3": 0,
+        "A1": 31.2,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.0009,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 413.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2000,
+        "k_poly": 0.2,
+        "Tg": 423.15,
+        "Tm": 573.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2150,
+        "PoissonsRatio": 0.37,
+        "CTE": 6.5e-05
+      }
+    },
+    {
+      "grade": "Covestro-Makrolon-2805",
+      "family": "PC",
+      "desc": "PC Medium Viscosity",
+      "CrossWLF": {
+        "n": 0.29,
+        "tau_star": 180000.0,
+        "D1": 24000000000000.0,
+        "D2": 413.15,
+        "D3": 0,
+        "A1": 31.2,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.0009,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 413.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2000,
+        "k_poly": 0.2,
+        "Tg": 423.15,
+        "Tm": 573.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2200,
+        "PoissonsRatio": 0.37,
+        "CTE": 6.5e-05
+      }
+    },
+    {
+      "grade": "Covestro-Makrolon-3105",
+      "family": "PC",
+      "desc": "PC High Viscosity",
+      "CrossWLF": {
+        "n": 0.32,
+        "tau_star": 180000.0,
+        "D1": 24000000000000.0,
+        "D2": 413.15,
+        "D3": 0,
+        "A1": 31.2,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.0009,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 413.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2000,
+        "k_poly": 0.2,
+        "Tg": 423.15,
+        "Tm": 573.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2250,
+        "PoissonsRatio": 0.37,
+        "CTE": 6.5e-05
+      }
+    },
+    {
+      "grade": "Covestro-Makrolon-8035",
+      "family": "PC",
+      "desc": "PC+GF30 EMI",
+      "CrossWLF": {
+        "n": 0.34,
+        "tau_star": 180000.0,
+        "D1": 24000000000000.0,
+        "D2": 413.15,
+        "D3": 0,
+        "A1": 31.2,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.0009,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 413.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2000,
+        "k_poly": 0.2,
+        "Tg": 423.15,
+        "Tm": 573.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 8000,
+        "PoissonsRatio": 0.37,
+        "CTE": 2.7e-05
+      },
+      "Additives": {
+        "filler_type": "Fiber",
+        "filler_name": "GlassFiber",
+        "weight_fraction": 0.3,
+        "volume_fraction": 0.168,
+        "aspect_ratio": 25.0,
+        "filler_modulus_MPa": 72000,
+        "filler_CTE": 5e-06,
+        "filler_poisson": 0.2,
+        "matrix_grade": ""
+      }
+    },
+    {
+      "grade": "Lotte-Infino-PC-1100",
+      "family": "PC",
+      "desc": "PC Standard KR",
+      "CrossWLF": {
+        "n": 0.32,
+        "tau_star": 180000.0,
+        "D1": 22000000000000.0,
+        "D2": 413.15,
+        "D3": 0,
+        "A1": 31.2,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.0009,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 413.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2000,
+        "k_poly": 0.2,
+        "Tg": 423.15,
+        "Tm": 573.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2200,
+        "PoissonsRatio": 0.37,
+        "CTE": 6.5e-05
+      }
+    },
+    {
+      "grade": "Lotte-Infino-PC-GF1320",
+      "family": "PC",
+      "desc": "PC+GF20 KR",
+      "CrossWLF": {
+        "n": 0.33,
+        "tau_star": 180000.0,
+        "D1": 24000000000000.0,
+        "D2": 413.15,
+        "D3": 0,
+        "A1": 31.2,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.0009,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 413.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2000,
+        "k_poly": 0.2,
+        "Tg": 423.15,
+        "Tm": 573.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 5600,
+        "PoissonsRatio": 0.37,
+        "CTE": 3.3e-05
+      },
+      "Additives": {
+        "filler_type": "Fiber",
+        "filler_name": "GlassFiber",
+        "weight_fraction": 0.2,
+        "volume_fraction": 0.112,
+        "aspect_ratio": 25.0,
+        "filler_modulus_MPa": 72000,
+        "filler_CTE": 5e-06,
+        "filler_poisson": 0.2,
+        "matrix_grade": ""
+      }
+    },
+    {
+      "grade": "Lotte-Infino-PC-FR1050",
+      "family": "PC",
+      "desc": "PC-FR KR",
+      "CrossWLF": {
+        "n": 0.31,
+        "tau_star": 180000.0,
+        "D1": 24000000000000.0,
+        "D2": 413.15,
+        "D3": 0,
+        "A1": 31.2,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00087,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 413.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2000,
+        "k_poly": 0.2,
+        "Tg": 423.15,
+        "Tm": 573.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2200,
+        "PoissonsRatio": 0.37,
+        "CTE": 6.5e-05
+      }
+    },
+    {
+      "grade": "Toray-Toyolac-100",
+      "family": "ABS",
+      "desc": "ABS GP",
+      "CrossWLF": {
+        "n": 0.35,
+        "tau_star": 280000.0,
+        "D1": 380000000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 28.5,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.001,
+        "b2m": 1e-06,
+        "b3m": 120000000.0,
+        "b4m": 0.004,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2100,
+        "k_poly": 0.18,
+        "Tg": 378.15,
+        "Tm": 513.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2400,
+        "PoissonsRatio": 0.35,
+        "CTE": 8e-05
+      }
+    },
+    {
+      "grade": "Toray-Toyolac-700",
+      "family": "ABS",
+      "desc": "ABS High Flow",
+      "CrossWLF": {
+        "n": 0.33,
+        "tau_star": 280000.0,
+        "D1": 300000000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 28.5,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.001,
+        "b2m": 1e-06,
+        "b3m": 120000000.0,
+        "b4m": 0.004,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2100,
+        "k_poly": 0.18,
+        "Tg": 378.15,
+        "Tm": 513.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2400,
+        "PoissonsRatio": 0.35,
+        "CTE": 8e-05
+      }
+    },
+    {
+      "grade": "Toray-Toyolac-920",
+      "family": "ABS",
+      "desc": "ABS Transparent",
+      "CrossWLF": {
+        "n": 0.34,
+        "tau_star": 280000.0,
+        "D1": 380000000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 28.5,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.001,
+        "b2m": 1e-06,
+        "b3m": 120000000.0,
+        "b4m": 0.004,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2100,
+        "k_poly": 0.18,
+        "Tg": 378.15,
+        "Tm": 513.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2500,
+        "PoissonsRatio": 0.35,
+        "CTE": 8e-05
+      }
+    },
+    {
+      "grade": "ChiMei-Polylac-PA-757",
+      "family": "ABS",
+      "desc": "ABS High Impact",
+      "CrossWLF": {
+        "n": 0.35,
+        "tau_star": 280000.0,
+        "D1": 380000000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 28.5,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.001,
+        "b2m": 1e-06,
+        "b3m": 120000000.0,
+        "b4m": 0.004,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2100,
+        "k_poly": 0.18,
+        "Tg": 378.15,
+        "Tm": 513.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2200,
+        "PoissonsRatio": 0.35,
+        "CTE": 8.5e-05
+      }
+    },
+    {
+      "grade": "ChiMei-Polylac-PA-765A",
+      "family": "ABS",
+      "desc": "ABS FR-V0",
+      "CrossWLF": {
+        "n": 0.35,
+        "tau_star": 280000.0,
+        "D1": 380000000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 28.5,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.001,
+        "b2m": 1e-06,
+        "b3m": 120000000.0,
+        "b4m": 0.004,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2100,
+        "k_poly": 0.18,
+        "Tg": 378.15,
+        "Tm": 513.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2500,
+        "PoissonsRatio": 0.35,
+        "CTE": 7.8e-05
+      }
+    },
+    {
+      "grade": "LG-Chem-HI121H",
+      "family": "ABS",
+      "desc": "ABS High Impact KR",
+      "CrossWLF": {
+        "n": 0.35,
+        "tau_star": 280000.0,
+        "D1": 380000000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 28.5,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.001,
+        "b2m": 1e-06,
+        "b3m": 120000000.0,
+        "b4m": 0.004,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2100,
+        "k_poly": 0.18,
+        "Tg": 378.15,
+        "Tm": 513.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2300,
+        "PoissonsRatio": 0.35,
+        "CTE": 8e-05
+      }
+    },
+    {
+      "grade": "LG-Chem-ER461",
+      "family": "ABS",
+      "desc": "ABS Electroplating",
+      "CrossWLF": {
+        "n": 0.35,
+        "tau_star": 280000.0,
+        "D1": 380000000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 28.5,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.001,
+        "b2m": 1e-06,
+        "b3m": 120000000.0,
+        "b4m": 0.004,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2100,
+        "k_poly": 0.18,
+        "Tg": 378.15,
+        "Tm": 513.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2400,
+        "PoissonsRatio": 0.35,
+        "CTE": 8e-05
+      }
+    },
+    {
+      "grade": "Lotte-Starex-SD-0150",
+      "family": "ABS",
+      "desc": "ABS GP KR",
+      "CrossWLF": {
+        "n": 0.35,
+        "tau_star": 280000.0,
+        "D1": 380000000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 28.5,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.001,
+        "b2m": 1e-06,
+        "b3m": 120000000.0,
+        "b4m": 0.004,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2100,
+        "k_poly": 0.18,
+        "Tg": 378.15,
+        "Tm": 513.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2400,
+        "PoissonsRatio": 0.35,
+        "CTE": 8e-05
+      }
+    },
+    {
+      "grade": "Lotte-Starex-VH-0800",
+      "family": "ABS",
+      "desc": "ABS High Heat",
+      "CrossWLF": {
+        "n": 0.35,
+        "tau_star": 280000.0,
+        "D1": 380000000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 28.5,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.001,
+        "b2m": 1e-06,
+        "b3m": 120000000.0,
+        "b4m": 0.004,
+        "b5": 275.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2100,
+        "k_poly": 0.18,
+        "Tg": 378.15,
+        "Tm": 513.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2600,
+        "PoissonsRatio": 0.35,
+        "CTE": 8e-05
+      }
+    },
+    {
+      "grade": "SABIC-Cycolac-GPM5500",
+      "family": "ABS",
+      "desc": "ABS GP",
+      "CrossWLF": {
+        "n": 0.35,
+        "tau_star": 280000.0,
+        "D1": 380000000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 28.5,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.001,
+        "b2m": 1e-06,
+        "b3m": 120000000.0,
+        "b4m": 0.004,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2100,
+        "k_poly": 0.18,
+        "Tg": 378.15,
+        "Tm": 513.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2400,
+        "PoissonsRatio": 0.35,
+        "CTE": 8e-05
+      }
+    },
+    {
+      "grade": "SABIC-Cycolac-FR15U",
+      "family": "ABS",
+      "desc": "ABS FR",
+      "CrossWLF": {
+        "n": 0.35,
+        "tau_star": 280000.0,
+        "D1": 380000000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 28.5,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.001,
+        "b2m": 1e-06,
+        "b3m": 120000000.0,
+        "b4m": 0.004,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2100,
+        "k_poly": 0.18,
+        "Tg": 378.15,
+        "Tm": 513.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2550,
+        "PoissonsRatio": 0.35,
+        "CTE": 8e-05
+      }
+    },
+    {
+      "grade": "Kumho-ABS-750N",
+      "family": "ABS",
+      "desc": "ABS High Flow KR",
+      "CrossWLF": {
+        "n": 0.34,
+        "tau_star": 280000.0,
+        "D1": 320000000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 28.5,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.001,
+        "b2m": 1e-06,
+        "b3m": 120000000.0,
+        "b4m": 0.004,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2100,
+        "k_poly": 0.18,
+        "Tg": 378.15,
+        "Tm": 513.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2400,
+        "PoissonsRatio": 0.35,
+        "CTE": 8e-05
+      }
+    },
+    {
+      "grade": "INEOS-Lustran-248",
+      "family": "ABS",
+      "desc": "ABS Medium Impact",
+      "CrossWLF": {
+        "n": 0.35,
+        "tau_star": 280000.0,
+        "D1": 380000000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 28.5,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.001,
+        "b2m": 1e-06,
+        "b3m": 120000000.0,
+        "b4m": 0.004,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2100,
+        "k_poly": 0.18,
+        "Tg": 378.15,
+        "Tm": 513.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2400,
+        "PoissonsRatio": 0.35,
+        "CTE": 8e-05
+      }
+    },
+    {
+      "grade": "Techno-UMG-ABS-3001M",
+      "family": "ABS",
+      "desc": "ABS Anti-static",
+      "CrossWLF": {
+        "n": 0.35,
+        "tau_star": 280000.0,
+        "D1": 380000000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 28.5,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.001,
+        "b2m": 1e-06,
+        "b3m": 120000000.0,
+        "b4m": 0.004,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2100,
+        "k_poly": 0.18,
+        "Tg": 378.15,
+        "Tm": 513.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2400,
+        "PoissonsRatio": 0.35,
+        "CTE": 8e-05
+      }
+    },
+    {
+      "grade": "Techno-UMG-ABS-VW800",
+      "family": "ABS",
+      "desc": "ABS Heat Resistant",
+      "CrossWLF": {
+        "n": 0.35,
+        "tau_star": 280000.0,
+        "D1": 380000000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 28.5,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.001,
+        "b2m": 1e-06,
+        "b3m": 120000000.0,
+        "b4m": 0.004,
+        "b5": 278.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2100,
+        "k_poly": 0.18,
+        "Tg": 378.15,
+        "Tm": 513.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2650,
+        "PoissonsRatio": 0.35,
+        "CTE": 8e-05
+      }
+    },
+    {
+      "grade": "LyondellBasell-Hifax-TRC-135N",
+      "family": "PP",
+      "desc": "PP TPO",
+      "CrossWLF": {
+        "n": 0.38,
+        "tau_star": 150000.0,
+        "D1": 1200000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 26.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.0012,
+        "b2m": 1.5e-06,
+        "b3m": 100000000.0,
+        "b4m": 0.0045,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1900,
+        "k_poly": 0.22,
+        "Tg": 263.15,
+        "Tm": 433.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 1500,
+        "PoissonsRatio": 0.42,
+        "CTE": 0.0001
+      }
+    },
+    {
+      "grade": "LyondellBasell-Hostacom-G2N05",
+      "family": "PP",
+      "desc": "PP+GF20",
+      "CrossWLF": {
+        "n": 0.38,
+        "tau_star": 150000.0,
+        "D1": 1200000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 26.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.0012,
+        "b2m": 1.5e-06,
+        "b3m": 100000000.0,
+        "b4m": 0.0045,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1900,
+        "k_poly": 0.22,
+        "Tg": 263.15,
+        "Tm": 433.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 3200,
+        "PoissonsRatio": 0.42,
+        "CTE": 6e-05
+      },
+      "Additives": {
+        "filler_type": "Fiber",
+        "filler_name": "GlassFiber",
+        "weight_fraction": 0.2,
+        "volume_fraction": 0.112,
+        "aspect_ratio": 25.0,
+        "filler_modulus_MPa": 72000,
+        "filler_CTE": 5e-06,
+        "filler_poisson": 0.2,
+        "matrix_grade": ""
+      }
+    },
+    {
+      "grade": "Borealis-Daploy-WB140HMS",
+      "family": "PP",
+      "desc": "PP HMS Foam",
+      "CrossWLF": {
+        "n": 0.4,
+        "tau_star": 150000.0,
+        "D1": 1200000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 26.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.0012,
+        "b2m": 1.5e-06,
+        "b3m": 100000000.0,
+        "b4m": 0.0045,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1900,
+        "k_poly": 0.22,
+        "Tg": 263.15,
+        "Tm": 433.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 1500,
+        "PoissonsRatio": 0.42,
+        "CTE": 0.0001
+      }
+    },
+    {
+      "grade": "SABIC-PP-575P",
+      "family": "PP",
+      "desc": "PP HCPP",
+      "CrossWLF": {
+        "n": 0.37,
+        "tau_star": 150000.0,
+        "D1": 1200000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 26.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.0012,
+        "b2m": 1.5e-06,
+        "b3m": 100000000.0,
+        "b4m": 0.0045,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1900,
+        "k_poly": 0.22,
+        "Tg": 263.15,
+        "Tm": 433.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 1500,
+        "PoissonsRatio": 0.42,
+        "CTE": 0.0001
+      }
+    },
+    {
+      "grade": "LG-Chem-M1600",
+      "family": "PP",
+      "desc": "PP GP KR",
+      "CrossWLF": {
+        "n": 0.38,
+        "tau_star": 150000.0,
+        "D1": 1200000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 26.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.0012,
+        "b2m": 1.5e-06,
+        "b3m": 100000000.0,
+        "b4m": 0.0045,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1900,
+        "k_poly": 0.22,
+        "Tg": 263.15,
+        "Tm": 433.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 1500,
+        "PoissonsRatio": 0.42,
+        "CTE": 0.0001
+      }
+    },
+    {
+      "grade": "Lotte-Hyundai-EP332K",
+      "family": "PP",
+      "desc": "PP Block Co",
+      "CrossWLF": {
+        "n": 0.38,
+        "tau_star": 150000.0,
+        "D1": 1200000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 26.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.0012,
+        "b2m": 1.5e-06,
+        "b3m": 100000000.0,
+        "b4m": 0.0045,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1900,
+        "k_poly": 0.22,
+        "Tg": 263.15,
+        "Tm": 433.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 1600,
+        "PoissonsRatio": 0.42,
+        "CTE": 0.0001
+      }
+    },
+    {
+      "grade": "Hanwha-Total-PP-BJ350",
+      "family": "PP",
+      "desc": "PP High Impact",
+      "CrossWLF": {
+        "n": 0.38,
+        "tau_star": 150000.0,
+        "D1": 1200000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 26.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.0012,
+        "b2m": 1.5e-06,
+        "b3m": 100000000.0,
+        "b4m": 0.0045,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1900,
+        "k_poly": 0.22,
+        "Tg": 263.15,
+        "Tm": 433.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 1500,
+        "PoissonsRatio": 0.42,
+        "CTE": 0.0001
+      }
+    },
+    {
+      "grade": "GS-Caltex-RJ770",
+      "family": "PP",
+      "desc": "PP Random Co",
+      "CrossWLF": {
+        "n": 0.38,
+        "tau_star": 150000.0,
+        "D1": 1200000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 26.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.0012,
+        "b2m": 1.5e-06,
+        "b3m": 100000000.0,
+        "b4m": 0.0045,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1900,
+        "k_poly": 0.22,
+        "Tg": 263.15,
+        "Tm": 433.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 1400,
+        "PoissonsRatio": 0.42,
+        "CTE": 0.0001
+      }
+    },
+    {
+      "grade": "Celanese-Celstran-PP-GF30-02",
+      "family": "PP",
+      "desc": "PP+GF30",
+      "CrossWLF": {
+        "n": 0.4,
+        "tau_star": 150000.0,
+        "D1": 1200000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 26.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.0012,
+        "b2m": 1.5e-06,
+        "b3m": 100000000.0,
+        "b4m": 0.0045,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1900,
+        "k_poly": 0.22,
+        "Tg": 263.15,
+        "Tm": 433.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 4500,
+        "PoissonsRatio": 0.42,
+        "CTE": 4.5e-05
+      },
+      "Additives": {
+        "filler_type": "Fiber",
+        "filler_name": "GlassFiber",
+        "weight_fraction": 0.3,
+        "volume_fraction": 0.168,
+        "aspect_ratio": 25.0,
+        "filler_modulus_MPa": 72000,
+        "filler_CTE": 5e-06,
+        "filler_poisson": 0.2,
+        "matrix_grade": ""
+      }
+    },
+    {
+      "grade": "RTP-101",
+      "family": "PP",
+      "desc": "PP+GF10",
+      "CrossWLF": {
+        "n": 0.38,
+        "tau_star": 150000.0,
+        "D1": 1200000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 26.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.0012,
+        "b2m": 1.5e-06,
+        "b3m": 100000000.0,
+        "b4m": 0.0045,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1900,
+        "k_poly": 0.22,
+        "Tg": 263.15,
+        "Tm": 433.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2500,
+        "PoissonsRatio": 0.42,
+        "CTE": 7e-05
+      },
+      "Additives": {
+        "filler_type": "Fiber",
+        "filler_name": "GF",
+        "weight_fraction": 0.1,
+        "volume_fraction": 0.056,
+        "aspect_ratio": 20,
+        "filler_modulus_MPa": 72000,
+        "filler_CTE": 5e-06,
+        "filler_poisson": 0.2,
+        "matrix_grade": ""
+      }
+    },
+    {
+      "grade": "RTP-105",
+      "family": "PP",
+      "desc": "PP+GF30",
+      "CrossWLF": {
+        "n": 0.38,
+        "tau_star": 150000.0,
+        "D1": 1200000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 26.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.0012,
+        "b2m": 1.5e-06,
+        "b3m": 100000000.0,
+        "b4m": 0.0045,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1900,
+        "k_poly": 0.22,
+        "Tg": 263.15,
+        "Tm": 433.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 5500,
+        "PoissonsRatio": 0.42,
+        "CTE": 4e-05
+      },
+      "Additives": {
+        "filler_type": "Fiber",
+        "filler_name": "GlassFiber",
+        "weight_fraction": 0.3,
+        "volume_fraction": 0.168,
+        "aspect_ratio": 25.0,
+        "filler_modulus_MPa": 72000,
+        "filler_CTE": 5e-06,
+        "filler_poisson": 0.2,
+        "matrix_grade": ""
+      }
+    },
+    {
+      "grade": "ExxonMobil-AP03B",
+      "family": "PP",
+      "desc": "PP Automotive",
+      "CrossWLF": {
+        "n": 0.38,
+        "tau_star": 150000.0,
+        "D1": 1200000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 26.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.0012,
+        "b2m": 1.5e-06,
+        "b3m": 100000000.0,
+        "b4m": 0.0045,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1900,
+        "k_poly": 0.22,
+        "Tg": 263.15,
+        "Tm": 433.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 1500,
+        "PoissonsRatio": 0.42,
+        "CTE": 0.0001
+      }
+    },
+    {
+      "grade": "DuPont-Zytel-101L",
+      "family": "PA66",
+      "desc": "PA66 GP",
+      "CrossWLF": {
+        "n": 0.33,
+        "tau_star": 200000.0,
+        "D1": 180000000000.0,
+        "D2": 323.15,
+        "D3": 0,
+        "A1": 29.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00085,
+        "b2m": 1e-06,
+        "b3m": 120000000.0,
+        "b4m": 0.0038,
+        "b5": 323.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2050,
+        "k_poly": 0.26,
+        "Tg": 323.15,
+        "Tm": 533.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 3200,
+        "PoissonsRatio": 0.38,
+        "CTE": 8e-05
+      }
+    },
+    {
+      "grade": "DuPont-Zytel-70G33L",
+      "family": "PA66",
+      "desc": "PA66+GF33",
+      "CrossWLF": {
+        "n": 0.33,
+        "tau_star": 200000.0,
+        "D1": 180000000000.0,
+        "D2": 323.15,
+        "D3": 0,
+        "A1": 29.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00085,
+        "b2m": 1e-06,
+        "b3m": 120000000.0,
+        "b4m": 0.0038,
+        "b5": 323.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2050,
+        "k_poly": 0.26,
+        "Tg": 323.15,
+        "Tm": 533.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 10500,
+        "PoissonsRatio": 0.38,
+        "CTE": 3e-05
+      },
+      "Additives": {
+        "filler_type": "Fiber",
+        "filler_name": "GF",
+        "weight_fraction": 0.33,
+        "volume_fraction": 0.185,
+        "aspect_ratio": 25,
+        "filler_modulus_MPa": 72000,
+        "filler_CTE": 5e-06,
+        "filler_poisson": 0.2,
+        "matrix_grade": ""
+      }
+    },
+    {
+      "grade": "DuPont-Zytel-70G43L",
+      "family": "PA66",
+      "desc": "PA66+GF43",
+      "CrossWLF": {
+        "n": 0.35,
+        "tau_star": 200000.0,
+        "D1": 180000000000.0,
+        "D2": 323.15,
+        "D3": 0,
+        "A1": 29.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00085,
+        "b2m": 1e-06,
+        "b3m": 120000000.0,
+        "b4m": 0.0038,
+        "b5": 323.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2050,
+        "k_poly": 0.26,
+        "Tg": 323.15,
+        "Tm": 533.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 14000,
+        "PoissonsRatio": 0.38,
+        "CTE": 2.2e-05
+      },
+      "Additives": {
+        "filler_type": "Fiber",
+        "filler_name": "GlassFiber",
+        "weight_fraction": 0.45,
+        "volume_fraction": 0.252,
+        "aspect_ratio": 25.0,
+        "filler_modulus_MPa": 72000,
+        "filler_CTE": 5e-06,
+        "filler_poisson": 0.2,
+        "matrix_grade": ""
+      }
+    },
+    {
+      "grade": "BASF-Ultramid-A3K",
+      "family": "PA66",
+      "desc": "PA66 GP",
+      "CrossWLF": {
+        "n": 0.33,
+        "tau_star": 200000.0,
+        "D1": 180000000000.0,
+        "D2": 323.15,
+        "D3": 0,
+        "A1": 29.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00085,
+        "b2m": 1e-06,
+        "b3m": 120000000.0,
+        "b4m": 0.0038,
+        "b5": 323.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2050,
+        "k_poly": 0.26,
+        "Tg": 323.15,
+        "Tm": 533.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 3200,
+        "PoissonsRatio": 0.38,
+        "CTE": 8e-05
+      }
+    },
+    {
+      "grade": "BASF-Ultramid-A3WG6",
+      "family": "PA66",
+      "desc": "PA66+GF30",
+      "CrossWLF": {
+        "n": 0.33,
+        "tau_star": 200000.0,
+        "D1": 180000000000.0,
+        "D2": 323.15,
+        "D3": 0,
+        "A1": 29.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00085,
+        "b2m": 1e-06,
+        "b3m": 120000000.0,
+        "b4m": 0.0038,
+        "b5": 323.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2050,
+        "k_poly": 0.26,
+        "Tg": 323.15,
+        "Tm": 533.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 10000,
+        "PoissonsRatio": 0.38,
+        "CTE": 3.2e-05
+      },
+      "Additives": {
+        "filler_type": "Fiber",
+        "filler_name": "GlassFiber",
+        "weight_fraction": 0.3,
+        "volume_fraction": 0.168,
+        "aspect_ratio": 25.0,
+        "filler_modulus_MPa": 72000,
+        "filler_CTE": 5e-06,
+        "filler_poisson": 0.2,
+        "matrix_grade": ""
+      }
+    },
+    {
+      "grade": "BASF-Ultramid-A3WG10",
+      "family": "PA66",
+      "desc": "PA66+GF50",
+      "CrossWLF": {
+        "n": 0.36,
+        "tau_star": 200000.0,
+        "D1": 180000000000.0,
+        "D2": 323.15,
+        "D3": 0,
+        "A1": 29.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00085,
+        "b2m": 1e-06,
+        "b3m": 120000000.0,
+        "b4m": 0.0038,
+        "b5": 323.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2050,
+        "k_poly": 0.26,
+        "Tg": 323.15,
+        "Tm": 533.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 16000,
+        "PoissonsRatio": 0.38,
+        "CTE": 1.8e-05
+      }
+    },
+    {
+      "grade": "Asahi-Leona-1300S",
+      "family": "PA66",
+      "desc": "PA66 GP",
+      "CrossWLF": {
+        "n": 0.33,
+        "tau_star": 200000.0,
+        "D1": 180000000000.0,
+        "D2": 323.15,
+        "D3": 0,
+        "A1": 29.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00085,
+        "b2m": 1e-06,
+        "b3m": 120000000.0,
+        "b4m": 0.0038,
+        "b5": 323.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2050,
+        "k_poly": 0.26,
+        "Tg": 323.15,
+        "Tm": 533.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 3200,
+        "PoissonsRatio": 0.38,
+        "CTE": 8e-05
+      }
+    },
+    {
+      "grade": "Asahi-Leona-13G43",
+      "family": "PA66",
+      "desc": "PA66+GF43",
+      "CrossWLF": {
+        "n": 0.35,
+        "tau_star": 200000.0,
+        "D1": 180000000000.0,
+        "D2": 323.15,
+        "D3": 0,
+        "A1": 29.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00085,
+        "b2m": 1e-06,
+        "b3m": 120000000.0,
+        "b4m": 0.0038,
+        "b5": 323.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2050,
+        "k_poly": 0.26,
+        "Tg": 323.15,
+        "Tm": 533.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 13500,
+        "PoissonsRatio": 0.38,
+        "CTE": 2.3e-05
+      },
+      "Additives": {
+        "filler_type": "Fiber",
+        "filler_name": "GlassFiber",
+        "weight_fraction": 0.45,
+        "volume_fraction": 0.252,
+        "aspect_ratio": 25.0,
+        "filler_modulus_MPa": 72000,
+        "filler_CTE": 5e-06,
+        "filler_poisson": 0.2,
+        "matrix_grade": ""
+      }
+    },
+    {
+      "grade": "Radici-Radilon-A-RV300",
+      "family": "PA66",
+      "desc": "PA66+GF30",
+      "CrossWLF": {
+        "n": 0.33,
+        "tau_star": 200000.0,
+        "D1": 180000000000.0,
+        "D2": 323.15,
+        "D3": 0,
+        "A1": 29.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00085,
+        "b2m": 1e-06,
+        "b3m": 120000000.0,
+        "b4m": 0.0038,
+        "b5": 323.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2050,
+        "k_poly": 0.26,
+        "Tg": 323.15,
+        "Tm": 533.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 9800,
+        "PoissonsRatio": 0.38,
+        "CTE": 3.1e-05
+      },
+      "Additives": {
+        "filler_type": "Fiber",
+        "filler_name": "GlassFiber",
+        "weight_fraction": 0.3,
+        "volume_fraction": 0.168,
+        "aspect_ratio": 25.0,
+        "filler_modulus_MPa": 72000,
+        "filler_CTE": 5e-06,
+        "filler_poisson": 0.2,
+        "matrix_grade": ""
+      }
+    },
+    {
+      "grade": "Celanese-Celstran-PA66-GF30-02",
+      "family": "PA66",
+      "desc": "PA66+GF30 LFT",
+      "CrossWLF": {
+        "n": 0.33,
+        "tau_star": 200000.0,
+        "D1": 180000000000.0,
+        "D2": 323.15,
+        "D3": 0,
+        "A1": 29.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00085,
+        "b2m": 1e-06,
+        "b3m": 120000000.0,
+        "b4m": 0.0038,
+        "b5": 323.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2050,
+        "k_poly": 0.26,
+        "Tg": 323.15,
+        "Tm": 533.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 11000,
+        "PoissonsRatio": 0.38,
+        "CTE": 2.8e-05
+      },
+      "Additives": {
+        "filler_type": "Fiber",
+        "filler_name": "GlassFiber",
+        "weight_fraction": 0.3,
+        "volume_fraction": 0.168,
+        "aspect_ratio": 25.0,
+        "filler_modulus_MPa": 72000,
+        "filler_CTE": 5e-06,
+        "filler_poisson": 0.2,
+        "matrix_grade": ""
+      }
+    },
+    {
+      "grade": "LANXESS-Durethan-AKV30H2.0",
+      "family": "PA66",
+      "desc": "PA66+GF30 HF",
+      "CrossWLF": {
+        "n": 0.33,
+        "tau_star": 200000.0,
+        "D1": 180000000000.0,
+        "D2": 323.15,
+        "D3": 0,
+        "A1": 29.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00085,
+        "b2m": 1e-06,
+        "b3m": 120000000.0,
+        "b4m": 0.0038,
+        "b5": 323.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2050,
+        "k_poly": 0.26,
+        "Tg": 323.15,
+        "Tm": 533.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 10200,
+        "PoissonsRatio": 0.38,
+        "CTE": 3e-05
+      },
+      "Additives": {
+        "filler_type": "Fiber",
+        "filler_name": "GlassFiber",
+        "weight_fraction": 0.3,
+        "volume_fraction": 0.168,
+        "aspect_ratio": 25.0,
+        "filler_modulus_MPa": 72000,
+        "filler_CTE": 5e-06,
+        "filler_poisson": 0.2,
+        "matrix_grade": ""
+      }
+    },
+    {
+      "grade": "Toray-Amilan-CM3001-N",
+      "family": "PA66",
+      "desc": "PA66 GP",
+      "CrossWLF": {
+        "n": 0.33,
+        "tau_star": 200000.0,
+        "D1": 180000000000.0,
+        "D2": 323.15,
+        "D3": 0,
+        "A1": 29.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00085,
+        "b2m": 1e-06,
+        "b3m": 120000000.0,
+        "b4m": 0.0038,
+        "b5": 323.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2050,
+        "k_poly": 0.26,
+        "Tg": 323.15,
+        "Tm": 533.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 3200,
+        "PoissonsRatio": 0.38,
+        "CTE": 8e-05
+      }
+    },
+    {
+      "grade": "DuPont-Delrin-500P",
+      "family": "POM",
+      "desc": "POM GP",
+      "CrossWLF": {
+        "n": 0.3,
+        "tau_star": 180000.0,
+        "D1": 2000000000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 28.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00075,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2050,
+        "k_poly": 0.31,
+        "Tg": 213.15,
+        "Tm": 448.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2900,
+        "PoissonsRatio": 0.36,
+        "CTE": 0.00011
+      }
+    },
+    {
+      "grade": "DuPont-Delrin-510GR",
+      "family": "POM",
+      "desc": "POM+GF10",
+      "CrossWLF": {
+        "n": 0.32,
+        "tau_star": 180000.0,
+        "D1": 2500000000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 28.5,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00072,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2000,
+        "k_poly": 0.35,
+        "Tg": 213.15,
+        "Tm": 448.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 4500,
+        "PoissonsRatio": 0.36,
+        "CTE": 6e-05
+      }
+    },
+    {
+      "grade": "DuPont-Delrin-525GR",
+      "family": "POM",
+      "desc": "POM+GF25",
+      "CrossWLF": {
+        "n": 0.33,
+        "tau_star": 180000.0,
+        "D1": 3000000000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 29.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.0007,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1950,
+        "k_poly": 0.38,
+        "Tg": 213.15,
+        "Tm": 448.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 8500,
+        "PoissonsRatio": 0.36,
+        "CTE": 3.5e-05
+      },
+      "Additives": {
+        "filler_type": "Fiber",
+        "filler_name": "GF",
+        "weight_fraction": 0.25,
+        "volume_fraction": 0.14,
+        "aspect_ratio": 20,
+        "filler_modulus_MPa": 72000,
+        "filler_CTE": 5e-06,
+        "filler_poisson": 0.2,
+        "matrix_grade": ""
+      }
+    },
+    {
+      "grade": "Polyplastics-Duracon-M90-44",
+      "family": "POM",
+      "desc": "POM GP",
+      "CrossWLF": {
+        "n": 0.3,
+        "tau_star": 180000.0,
+        "D1": 2100000000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 28.2,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00076,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2050,
+        "k_poly": 0.31,
+        "Tg": 213.15,
+        "Tm": 448.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2950,
+        "PoissonsRatio": 0.36,
+        "CTE": 0.000105
+      }
+    },
+    {
+      "grade": "Asahi-Tenac-3010",
+      "family": "POM",
+      "desc": "POM GP",
+      "CrossWLF": {
+        "n": 0.31,
+        "tau_star": 180000.0,
+        "D1": 1900000000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 27.8,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00074,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2100,
+        "k_poly": 0.3,
+        "Tg": 213.15,
+        "Tm": 448.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2850,
+        "PoissonsRatio": 0.36,
+        "CTE": 0.00011
+      }
+    },
+    {
+      "grade": "BASF-Ultraform-N2320",
+      "family": "POM",
+      "desc": "POM GP",
+      "CrossWLF": {
+        "n": 0.3,
+        "tau_star": 180000.0,
+        "D1": 2300000000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 28.8,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00073,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2000,
+        "k_poly": 0.32,
+        "Tg": 213.15,
+        "Tm": 448.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 3000,
+        "PoissonsRatio": 0.36,
+        "CTE": 0.0001
+      }
+    },
+    {
+      "grade": "Celanese-Hostaform-C9021",
+      "family": "POM",
+      "desc": "POM GP",
+      "CrossWLF": {
+        "n": 0.29,
+        "tau_star": 180000.0,
+        "D1": 2000000000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 28.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00075,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2020,
+        "k_poly": 0.31,
+        "Tg": 213.15,
+        "Tm": 448.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2880,
+        "PoissonsRatio": 0.36,
+        "CTE": 0.000108
+      }
+    },
+    {
+      "grade": "Celanese-Hostaform-C27021",
+      "family": "POM",
+      "desc": "POM+GF20",
+      "CrossWLF": {
+        "n": 0.32,
+        "tau_star": 180000.0,
+        "D1": 2800000000000.0,
+        "D2": 263.15,
+        "D3": 0,
+        "A1": 29.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00071,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 263.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1980,
+        "k_poly": 0.37,
+        "Tg": 213.15,
+        "Tm": 448.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 7500,
+        "PoissonsRatio": 0.36,
+        "CTE": 4e-05
+      },
+      "Additives": {
+        "filler_type": "Fiber",
+        "filler_name": "GlassFiber",
+        "weight_fraction": 0.2,
+        "volume_fraction": 0.112,
+        "aspect_ratio": 25.0,
+        "filler_modulus_MPa": 72000,
+        "filler_CTE": 5e-06,
+        "filler_poisson": 0.2,
+        "matrix_grade": ""
+      }
+    },
+    {
+      "grade": "BASF-Ultradur-B4520",
+      "family": "PBT",
+      "desc": "PBT GP",
+      "CrossWLF": {
+        "n": 0.32,
+        "tau_star": 180000.0,
+        "D1": 3000000000000.0,
+        "D2": 373.15,
+        "D3": 0,
+        "A1": 29.5,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00075,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 373.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1950,
+        "k_poly": 0.25,
+        "Tg": 323.15,
+        "Tm": 498.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2800,
+        "PoissonsRatio": 0.36,
+        "CTE": 8e-05
+      }
+    },
+    {
+      "grade": "BASF-Ultradur-B4300G6",
+      "family": "PBT",
+      "desc": "PBT+GF30",
+      "CrossWLF": {
+        "n": 0.32,
+        "tau_star": 180000.0,
+        "D1": 3000000000000.0,
+        "D2": 373.15,
+        "D3": 0,
+        "A1": 29.5,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00075,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 373.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1950,
+        "k_poly": 0.25,
+        "Tg": 323.15,
+        "Tm": 498.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 10000,
+        "PoissonsRatio": 0.36,
+        "CTE": 3e-05
+      },
+      "Additives": {
+        "filler_type": "Fiber",
+        "filler_name": "GlassFiber",
+        "weight_fraction": 0.3,
+        "volume_fraction": 0.168,
+        "aspect_ratio": 25.0,
+        "filler_modulus_MPa": 72000,
+        "filler_CTE": 5e-06,
+        "filler_poisson": 0.2,
+        "matrix_grade": ""
+      }
+    },
+    {
+      "grade": "DuPont-Crastin-S600F20",
+      "family": "PBT",
+      "desc": "PBT+GF20",
+      "CrossWLF": {
+        "n": 0.32,
+        "tau_star": 180000.0,
+        "D1": 3000000000000.0,
+        "D2": 373.15,
+        "D3": 0,
+        "A1": 29.5,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00075,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 373.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1950,
+        "k_poly": 0.25,
+        "Tg": 323.15,
+        "Tm": 498.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 7500,
+        "PoissonsRatio": 0.36,
+        "CTE": 4.5e-05
+      },
+      "Additives": {
+        "filler_type": "Fiber",
+        "filler_name": "GlassFiber",
+        "weight_fraction": 0.2,
+        "volume_fraction": 0.112,
+        "aspect_ratio": 25.0,
+        "filler_modulus_MPa": 72000,
+        "filler_CTE": 5e-06,
+        "filler_poisson": 0.2,
+        "matrix_grade": ""
+      }
+    },
+    {
+      "grade": "SABIC-Valox-420",
+      "family": "PBT",
+      "desc": "PBT+GF30",
+      "CrossWLF": {
+        "n": 0.32,
+        "tau_star": 180000.0,
+        "D1": 3000000000000.0,
+        "D2": 373.15,
+        "D3": 0,
+        "A1": 29.5,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00075,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 373.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1950,
+        "k_poly": 0.25,
+        "Tg": 323.15,
+        "Tm": 498.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 9500,
+        "PoissonsRatio": 0.36,
+        "CTE": 3.2e-05
+      },
+      "Additives": {
+        "filler_type": "Fiber",
+        "filler_name": "GlassFiber",
+        "weight_fraction": 0.3,
+        "volume_fraction": 0.168,
+        "aspect_ratio": 25.0,
+        "filler_modulus_MPa": 72000,
+        "filler_CTE": 5e-06,
+        "filler_poisson": 0.2,
+        "matrix_grade": ""
+      }
+    },
+    {
+      "grade": "SABIC-Valox-310",
+      "family": "PBT",
+      "desc": "PBT GP",
+      "CrossWLF": {
+        "n": 0.32,
+        "tau_star": 180000.0,
+        "D1": 3000000000000.0,
+        "D2": 373.15,
+        "D3": 0,
+        "A1": 29.5,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00075,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 373.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1950,
+        "k_poly": 0.25,
+        "Tg": 323.15,
+        "Tm": 498.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2700,
+        "PoissonsRatio": 0.36,
+        "CTE": 8.5e-05
+      }
+    },
+    {
+      "grade": "Celanese-Celanex-2002",
+      "family": "PBT",
+      "desc": "PBT GP",
+      "CrossWLF": {
+        "n": 0.32,
+        "tau_star": 180000.0,
+        "D1": 3000000000000.0,
+        "D2": 373.15,
+        "D3": 0,
+        "A1": 29.5,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00075,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 373.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1950,
+        "k_poly": 0.25,
+        "Tg": 323.15,
+        "Tm": 498.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2750,
+        "PoissonsRatio": 0.36,
+        "CTE": 8.2e-05
+      }
+    },
+    {
+      "grade": "Celanese-Celanex-3316",
+      "family": "PBT",
+      "desc": "PBT+GF30",
+      "CrossWLF": {
+        "n": 0.32,
+        "tau_star": 180000.0,
+        "D1": 3000000000000.0,
+        "D2": 373.15,
+        "D3": 0,
+        "A1": 29.5,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00075,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 373.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1950,
+        "k_poly": 0.25,
+        "Tg": 323.15,
+        "Tm": 498.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 9800,
+        "PoissonsRatio": 0.36,
+        "CTE": 3.1e-05
+      },
+      "Additives": {
+        "filler_type": "Fiber",
+        "filler_name": "GlassFiber",
+        "weight_fraction": 0.3,
+        "volume_fraction": 0.168,
+        "aspect_ratio": 25.0,
+        "filler_modulus_MPa": 72000,
+        "filler_CTE": 5e-06,
+        "filler_poisson": 0.2,
+        "matrix_grade": ""
+      }
+    },
+    {
+      "grade": "LG-Chem-Lupox-GP2300",
+      "family": "PBT",
+      "desc": "PBT+GF30",
+      "CrossWLF": {
+        "n": 0.32,
+        "tau_star": 180000.0,
+        "D1": 3000000000000.0,
+        "D2": 373.15,
+        "D3": 0,
+        "A1": 29.5,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00075,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 373.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1950,
+        "k_poly": 0.25,
+        "Tg": 323.15,
+        "Tm": 498.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 9600,
+        "PoissonsRatio": 0.36,
+        "CTE": 3.3e-05
+      },
+      "Additives": {
+        "filler_type": "Fiber",
+        "filler_name": "GlassFiber",
+        "weight_fraction": 0.3,
+        "volume_fraction": 0.168,
+        "aspect_ratio": 25.0,
+        "filler_modulus_MPa": 72000,
+        "filler_CTE": 5e-06,
+        "filler_poisson": 0.2,
+        "matrix_grade": ""
+      }
+    },
+    {
+      "grade": "Evonik-Plexiglas-8N",
+      "family": "PMMA",
+      "desc": "PMMA GP",
+      "CrossWLF": {
+        "n": 0.3,
+        "tau_star": 180000.0,
+        "D1": 4000000000000.0,
+        "D2": 378.15,
+        "D3": 0,
+        "A1": 30.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00085,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 378.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1800,
+        "k_poly": 0.19,
+        "Tg": 378.15,
+        "Tm": 473.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 3300,
+        "PoissonsRatio": 0.36,
+        "CTE": 7e-05
+      }
+    },
+    {
+      "grade": "SABIC-Ultem-1000",
+      "family": "PEI",
+      "desc": "PEI GP",
+      "CrossWLF": {
+        "n": 0.32,
+        "tau_star": 180000.0,
+        "D1": 80000000000000.0,
+        "D2": 488.15,
+        "D3": 0,
+        "A1": 33.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00078,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 488.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2000,
+        "k_poly": 0.22,
+        "Tg": 488.15,
+        "Tm": 623.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 3500,
+        "PoissonsRatio": 0.36,
+        "CTE": 5.6e-05
+      }
+    },
+    {
+      "grade": "SABIC-Ultem-2200",
+      "family": "PEI",
+      "desc": "PEI+GF20",
+      "CrossWLF": {
+        "n": 0.34,
+        "tau_star": 180000.0,
+        "D1": 100000000000000.0,
+        "D2": 488.15,
+        "D3": 0,
+        "A1": 33.5,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00076,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 488.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1950,
+        "k_poly": 0.25,
+        "Tg": 488.15,
+        "Tm": 623.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 6800,
+        "PoissonsRatio": 0.36,
+        "CTE": 2.5e-05
+      },
+      "Additives": {
+        "filler_type": "Fiber",
+        "filler_name": "GlassFiber",
+        "weight_fraction": 0.2,
+        "volume_fraction": 0.112,
+        "aspect_ratio": 25.0,
+        "filler_modulus_MPa": 72000,
+        "filler_CTE": 5e-06,
+        "filler_poisson": 0.2,
+        "matrix_grade": ""
+      }
+    },
+    {
+      "grade": "Solvay-Radel-R-5000",
+      "family": "PPSU",
+      "desc": "PPSU GP",
+      "CrossWLF": {
+        "n": 0.33,
+        "tau_star": 180000.0,
+        "D1": 50000000000000.0,
+        "D2": 493.15,
+        "D3": 0,
+        "A1": 32.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.0008,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 493.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1900,
+        "k_poly": 0.35,
+        "Tg": 493.15,
+        "Tm": 633.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2400,
+        "PoissonsRatio": 0.36,
+        "CTE": 5.5e-05
+      }
+    },
+    {
+      "grade": "Solvay-Ryton-R-4-220",
+      "family": "PPS",
+      "desc": "PPS+GF40",
+      "CrossWLF": {
+        "n": 0.35,
+        "tau_star": 180000.0,
+        "D1": 60000000000000.0,
+        "D2": 363.15,
+        "D3": 0,
+        "A1": 31.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00074,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 363.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1850,
+        "k_poly": 0.3,
+        "Tg": 363.15,
+        "Tm": 553.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 15000,
+        "PoissonsRatio": 0.36,
+        "CTE": 2e-05
+      }
+    },
+    {
+      "grade": "Ticona-Fortron-1140L4",
+      "family": "PPS",
+      "desc": "PPS+GF40",
+      "CrossWLF": {
+        "n": 0.34,
+        "tau_star": 180000.0,
+        "D1": 55000000000000.0,
+        "D2": 363.15,
+        "D3": 0,
+        "A1": 30.5,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00075,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 363.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1880,
+        "k_poly": 0.31,
+        "Tg": 363.15,
+        "Tm": 553.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 14500,
+        "PoissonsRatio": 0.36,
+        "CTE": 2.2e-05
+      }
+    },
+    {
+      "grade": "Victrex-PEEK-450G",
+      "family": "PEEK",
+      "desc": "PEEK GP",
+      "CrossWLF": {
+        "n": 0.33,
+        "tau_star": 180000.0,
+        "D1": 100000000000000.0,
+        "D2": 616.15,
+        "D3": 0,
+        "A1": 34.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00078,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 616.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2150,
+        "k_poly": 0.25,
+        "Tg": 416.15,
+        "Tm": 616.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 3600,
+        "PoissonsRatio": 0.36,
+        "CTE": 4.7e-05
+      }
+    },
+    {
+      "grade": "Victrex-PEEK-450CA30",
+      "family": "PEEK",
+      "desc": "PEEK+CF30",
+      "CrossWLF": {
+        "n": 0.35,
+        "tau_star": 180000.0,
+        "D1": 150000000000000.0,
+        "D2": 616.15,
+        "D3": 0,
+        "A1": 34.5,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00075,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 616.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2000,
+        "k_poly": 0.35,
+        "Tg": 416.15,
+        "Tm": 616.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 13000,
+        "PoissonsRatio": 0.36,
+        "CTE": 1.5e-05
+      }
+    },
+    {
+      "grade": "Ticona-Vectra-A130",
+      "family": "LCP",
+      "desc": "LCP+GF30",
+      "CrossWLF": {
+        "n": 0.28,
+        "tau_star": 180000.0,
+        "D1": 20000000000000.0,
+        "D2": 553.15,
+        "D3": 0,
+        "A1": 33.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00072,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 553.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1800,
+        "k_poly": 0.32,
+        "Tg": 393.15,
+        "Tm": 553.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 15000,
+        "PoissonsRatio": 0.36,
+        "CTE": 1e-05
+      }
+    },
+    {
+      "grade": "Sumitomo-SumikaSuper-E6008",
+      "family": "LCP",
+      "desc": "LCP+GF40",
+      "CrossWLF": {
+        "n": 0.29,
+        "tau_star": 180000.0,
+        "D1": 25000000000000.0,
+        "D2": 553.15,
+        "D3": 0,
+        "A1": 33.5,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.0007,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 553.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1750,
+        "k_poly": 0.33,
+        "Tg": 393.15,
+        "Tm": 553.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 18000,
+        "PoissonsRatio": 0.36,
+        "CTE": 8e-06
+      }
+    },
+    {
+      "grade": "EMS-Grivory-GV-5H",
+      "family": "PA6T",
+      "desc": "PPA+GF50",
+      "CrossWLF": {
+        "n": 0.34,
+        "tau_star": 180000.0,
+        "D1": 50000000000000.0,
+        "D2": 393.15,
+        "D3": 0,
+        "A1": 32.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00073,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 393.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1900,
+        "k_poly": 0.3,
+        "Tg": 393.15,
+        "Tm": 593.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 18000,
+        "PoissonsRatio": 0.36,
+        "CTE": 1.8e-05
+      }
+    },
+    {
+      "grade": "DuPont-Zytel-HTN51G35HSL",
+      "family": "PA6T",
+      "desc": "PPA+GF35",
+      "CrossWLF": {
+        "n": 0.33,
+        "tau_star": 180000.0,
+        "D1": 45000000000000.0,
+        "D2": 393.15,
+        "D3": 0,
+        "A1": 31.5,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00074,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 393.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1950,
+        "k_poly": 0.31,
+        "Tg": 393.15,
+        "Tm": 593.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 12000,
+        "PoissonsRatio": 0.36,
+        "CTE": 2.5e-05
+      }
+    },
+    {
+      "grade": "DSM-Stanyl-TW200F6",
+      "family": "PA46",
+      "desc": "PA46+GF30",
+      "CrossWLF": {
+        "n": 0.32,
+        "tau_star": 180000.0,
+        "D1": 35000000000000.0,
+        "D2": 353.15,
+        "D3": 0,
+        "A1": 30.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00076,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 353.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2000,
+        "k_poly": 0.28,
+        "Tg": 353.15,
+        "Tm": 563.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 10500,
+        "PoissonsRatio": 0.36,
+        "CTE": 3.5e-05
+      }
+    },
+    {
+      "grade": "DSM-Arnite-T06-200",
+      "family": "PBT+PET",
+      "desc": "PBT/PET Blend",
+      "CrossWLF": {
+        "n": 0.31,
+        "tau_star": 180000.0,
+        "D1": 2800000000000.0,
+        "D2": 373.15,
+        "D3": 0,
+        "A1": 29.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00076,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 373.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1900,
+        "k_poly": 0.25,
+        "Tg": 333.15,
+        "Tm": 523.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2600,
+        "PoissonsRatio": 0.36,
+        "CTE": 7.5e-05
+      }
+    },
+    {
+      "grade": "Mitsubishi-Iupilon-S-3000",
+      "family": "PC",
+      "desc": "PC High Flow",
+      "CrossWLF": {
+        "n": 0.28,
+        "tau_star": 180000.0,
+        "D1": 20000000000000.0,
+        "D2": 413.15,
+        "D3": 0,
+        "A1": 30.8,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00088,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 413.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1980,
+        "k_poly": 0.22,
+        "Tg": 423.15,
+        "Tm": 573.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2100,
+        "PoissonsRatio": 0.36,
+        "CTE": 6.8e-05
+      }
+    },
+    {
+      "grade": "Idemitsu-Tarflon-IR2200",
+      "family": "PC",
+      "desc": "PC Optical",
+      "CrossWLF": {
+        "n": 0.29,
+        "tau_star": 180000.0,
+        "D1": 21000000000000.0,
+        "D2": 413.15,
+        "D3": 0,
+        "A1": 31.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00089,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 413.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1990,
+        "k_poly": 0.21,
+        "Tg": 423.15,
+        "Tm": 573.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2150,
+        "PoissonsRatio": 0.36,
+        "CTE": 6.7e-05
+      }
+    },
+    {
+      "grade": "Sumitomo-Sumikon-FM-X",
+      "family": "Phenolic",
+      "desc": "Phenolic GP",
+      "CrossWLF": {
+        "n": 0.24,
+        "tau_star": 180000.0,
+        "D1": 100000000000000.0,
+        "D2": 473.15,
+        "D3": 0,
+        "A1": 35.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00065,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 473.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1600,
+        "k_poly": 0.3,
+        "Tg": 473.15,
+        "Tm": 623.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 6000,
+        "PoissonsRatio": 0.36,
+        "CTE": 3e-05
+      }
+    },
+    {
+      "grade": "Daikin-NeoFlon-PFA-AP-230",
+      "family": "PFA",
+      "desc": "PFA GP",
+      "CrossWLF": {
+        "n": 0.26,
+        "tau_star": 180000.0,
+        "D1": 50000000000000.0,
+        "D2": 533.15,
+        "D3": 0,
+        "A1": 34.0,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.0006,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 533.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1050,
+        "k_poly": 0.25,
+        "Tg": 363.15,
+        "Tm": 583.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 450,
+        "PoissonsRatio": 0.36,
+        "CTE": 0.00012
+      }
+    },
+    {
+      "grade": "AGC-Fluon-ETFE-C-88AX",
+      "family": "ETFE",
+      "desc": "ETFE GP",
+      "CrossWLF": {
+        "n": 0.27,
+        "tau_star": 180000.0,
+        "D1": 40000000000000.0,
+        "D2": 523.15,
+        "D3": 0,
+        "A1": 33.5,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00062,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 523.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 1200,
+        "k_poly": 0.24,
+        "Tg": 373.15,
+        "Tm": 543.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 1200,
+        "PoissonsRatio": 0.36,
+        "CTE": 0.0001
+      }
+    },
+    {
+      "grade": "Covestro-Apec-1895",
+      "family": "PC-HT",
+      "desc": "PC High Heat",
+      "CrossWLF": {
+        "n": 0.33,
+        "tau_star": 180000.0,
+        "D1": 40000000000000.0,
+        "D2": 463.15,
+        "D3": 0,
+        "A1": 32.5,
+        "A2": 51.6
+      },
+      "Tait": {
+        "b1m": 0.00086,
+        "b2m": 1.2e-06,
+        "b3m": 130000000.0,
+        "b4m": 0.0035,
+        "b5": 463.15,
+        "b6": 0,
+        "b7": 0,
+        "b8": 0,
+        "b9": 0,
+        "C_tait": 0.0894
+      },
+      "Thermal": {
+        "Cp_poly": 2100,
+        "k_poly": 0.23,
+        "Tg": 463.15,
+        "Tm": 593.15
+      },
+      "Mechanical": {
+        "YoungsModulus": 2400,
+        "PoissonsRatio": 0.36,
+        "CTE": 6e-05
+      }
+    }
+  ]
+}

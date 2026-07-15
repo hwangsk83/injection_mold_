@@ -1,0 +1,262 @@
+{
+    "schema_version": "2.0",
+    "description": "Unified Material Library for Injection Mold Flow",
+    "materials": [
+        {
+            "key": "Generic/ABS",
+            "manufacturer": "Generic",
+            "grade": "ABS",
+            "is_synthetic": false,
+            "CrossWLF": {
+                "n": 0.35,
+                "tau_star": 280000.0,
+                "D1": 380000000000.0,
+                "D2": 263.15,
+                "D3": 0.0,
+                "A1": 28.5,
+                "A2": 51.6
+            },
+            "Tait": {
+                "b1m": 0.001,
+                "b2m": 1e-06,
+                "b3m": 120000000.0,
+                "b4m": 0.004,
+                "b5": 263.15,
+                "b6": 0.0,
+                "b7": 0.0,
+                "b8": 0.0,
+                "b9": 0.0,
+                "C_tait": 0.0894
+            },
+            "Thermal": {
+                "Cp_poly": 2100.0,
+                "k_poly": 0.18,
+                "Tg": 378.15,
+                "Tm": 513.15
+            },
+            "Mechanical": {
+                "YoungsModulus": 2400.0,
+                "PoissonsRatio": 0.35,
+                "CTE": 8e-05
+            },
+            "density": 1000.0
+        },
+        {
+            "key": "Generic/PC",
+            "manufacturer": "Generic",
+            "grade": "PC",
+            "is_synthetic": false,
+            "CrossWLF": {
+                "n": 0.3,
+                "tau_star": 180000.0,
+                "D1": 24000000000000.0,
+                "D2": 413.15,
+                "D3": 0.0,
+                "A1": 31.2,
+                "A2": 51.6
+            },
+            "Tait": {
+                "b1m": 0.0009,
+                "b2m": 1.2e-06,
+                "b3m": 130000000.0,
+                "b4m": 0.0035,
+                "b5": 413.15,
+                "b6": 0.0,
+                "b7": 0.0,
+                "b8": 0.0,
+                "b9": 0.0,
+                "C_tait": 0.0894
+            },
+            "Thermal": {
+                "Cp_poly": 2000.0,
+                "k_poly": 0.2,
+                "Tg": 423.15,
+                "Tm": 573.15
+            },
+            "Mechanical": {
+                "YoungsModulus": 2200.0,
+                "PoissonsRatio": 0.37,
+                "CTE": 6.5e-05
+            },
+            "density": 1111.1111
+        },
+        {
+            "key": "Generic/PC+GF20",
+            "manufacturer": "Generic",
+            "grade": "PC+GF20",
+            "is_synthetic": false,
+            "CrossWLF": {
+                "n": 0.32,
+                "tau_star": 195000.0,
+                "D1": 20000000000000.0,
+                "D2": 413.15,
+                "D3": 0.0,
+                "A1": 30.8,
+                "A2": 51.6
+            },
+            "Tait": {
+                "b1m": 0.00088,
+                "b2m": 1.1e-06,
+                "b3m": 135000000.0,
+                "b4m": 0.0034,
+                "b5": 413.15,
+                "b6": 0.0,
+                "b7": 0.0,
+                "b8": 0.0,
+                "b9": 0.0,
+                "C_tait": 0.0894
+            },
+            "Thermal": {
+                "Cp_poly": 1850.0,
+                "k_poly": 0.26,
+                "Tg": 423.15,
+                "Tm": 573.15
+            },
+            "Mechanical": {
+                "YoungsModulus": 5800.0,
+                "PoissonsRatio": 0.33,
+                "CTE": 3.2e-05
+            },
+            "Additives": {
+                "filler_type": "Fiber",
+                "filler_name": "GlassFiber",
+                "weight_fraction": 0.2,
+                "volume_fraction": 0.112,
+                "aspect_ratio": 25.0,
+                "filler_modulus_MPa": 72000.0,
+                "filler_CTE": 5e-06,
+                "filler_poisson": 0.2,
+                "matrix_grade": "PC"
+            },
+            "density": 1136.3636
+        },
+        {
+            "key": "Generic/ABS+Talc15",
+            "manufacturer": "Generic",
+            "grade": "ABS+Talc15",
+            "is_synthetic": false,
+            "CrossWLF": {
+                "n": 0.34,
+                "tau_star": 265000.0,
+                "D1": 320000000000.0,
+                "D2": 263.15,
+                "D3": 0.0,
+                "A1": 28.2,
+                "A2": 51.6
+            },
+            "Tait": {
+                "b1m": 0.00095,
+                "b2m": 9.5e-07,
+                "b3m": 125000000.0,
+                "b4m": 0.0038,
+                "b5": 263.15,
+                "b6": 0.0,
+                "b7": 0.0,
+                "b8": 0.0,
+                "b9": 0.0,
+                "C_tait": 0.0894
+            },
+            "Thermal": {
+                "Cp_poly": 1950.0,
+                "k_poly": 0.22,
+                "Tg": 378.15,
+                "Tm": 513.15
+            },
+            "Mechanical": {
+                "YoungsModulus": 3800.0,
+                "PoissonsRatio": 0.35,
+                "CTE": 5.5e-05
+            },
+            "Additives": {
+                "filler_type": "Flake",
+                "filler_name": "Talc",
+                "weight_fraction": 0.15,
+                "volume_fraction": 0.073,
+                "aspect_ratio": 5.0,
+                "filler_modulus_MPa": 60000.0,
+                "filler_CTE": 8e-06,
+                "filler_poisson": 0.25,
+                "matrix_grade": "ABS"
+            },
+            "density": 1052.6316
+        },
+        {
+            "key": "Lotte Chemical/INFINO PC-1100",
+            "manufacturer": "Lotte Chemical",
+            "grade": "INFINO PC-1100",
+            "is_synthetic": false,
+            "CrossWLF": {
+                "n": 0.28,
+                "tau_star": 200000.0,
+                "D1": 15000000000000.0,
+                "D2": 415.15,
+                "D3": 0.0,
+                "A1": 30.5,
+                "A2": 51.6
+            },
+            "Tait": {
+                "b1m": 0.00092,
+                "b2m": 1.15e-06,
+                "b3m": 135000000.0,
+                "b4m": 0.0036,
+                "b5": 415.15,
+                "b6": 0.0,
+                "b7": 0.0,
+                "b8": 0.0,
+                "b9": 0.0,
+                "C_tait": 0.0894
+            },
+            "Thermal": {
+                "Cp_poly": 2050.0,
+                "k_poly": 0.19,
+                "Tg": 420.15,
+                "Tm": 568.15
+            },
+            "Mechanical": {
+                "YoungsModulus": 2200.0,
+                "PoissonsRatio": 0.37,
+                "CTE": 6.5e-05
+            },
+            "density": 1086.9565
+        },
+        {
+            "key": "Synthetic_AI/PC_MI10.0_D1.2",
+            "manufacturer": "Synthetic_AI",
+            "grade": "PC_MI10.0_D1.2",
+            "is_synthetic": true,
+            "CrossWLF": {
+                "n": 0.3,
+                "tau_star": 180000.0,
+                "D1": 24000000000000.02,
+                "D2": 423.15,
+                "D3": 0.0,
+                "A1": 31.2,
+                "A2": 51.6
+            },
+            "Tait": {
+                "b1m": 0.000875,
+                "b2m": 1e-06,
+                "b3m": 130000000.0,
+                "b4m": 0.002916666666666667,
+                "b5": 423.15,
+                "b6": 0.0,
+                "b7": 0.0,
+                "b8": 0.0,
+                "b9": 0.0,
+                "C_tait": 0.0894
+            },
+            "Thermal": {
+                "Cp_poly": 2000.0,
+                "k_poly": 0.2,
+                "Tg": 423.15,
+                "Tm": 573.15
+            },
+            "Mechanical": {
+                "YoungsModulus": 2200.0,
+                "PoissonsRatio": 0.37,
+                "CTE": 6.5e-05
+            },
+            "density": 1142.8571
+        }
+    ]
+}

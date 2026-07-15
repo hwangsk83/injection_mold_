@@ -1,0 +1,310 @@
+{
+    "clamping_force_ton": 250.0,
+    "screw_diameter_mm": 25.0,
+    "max_injection_pressure_mpa": 180.0,
+    "projected_area_m2": 0.01125000089406969,
+    "n_cavities": 1,
+    "n_gates": 1,
+    "runner_diameter_mm": 6.0,
+    "sub_runner_diameter_mm": 4.0,
+    "gate_land_length_mm": 1.5,
+    "hot_runner_enabled": false,
+    "valve_gate_count": 0,
+    "valve_gate_timing_s": {},
+    "cavity_stl_paths": [
+        "D:\\Open_code_project\\injection_mold_flow\\uploads\\cavity\\thin_plate_100x50x2.stl"
+    ],
+    "insert_stl_paths": [],
+    "cavity_bbox_list": [
+        {
+            "x_min": 0.0,
+            "x_max": 100.0,
+            "y_min": 0.0,
+            "y_max": 50.0,
+            "z_min": 0.0,
+            "z_max": 2.0,
+            "dx_mm": 100.0,
+            "dy_mm": 50.0,
+            "dz_mm": 2.0,
+            "n_triangles": 12
+        }
+    ],
+    "insert_bbox_list": [],
+    "gate_pick_mode": "\ud83e\udd16 Auto-Wizard (\uc790\ub3d9 \ud0d0\uc0c9)",
+    "manual_gate_coords": [],
+    "postprocess": {
+        "vtk_decimate_factor": 0.7,
+        "vtk_visualization_field": "U",
+        "report_formats": [
+            "PDF",
+            "PPTX"
+        ],
+        "report_dpi": 150
+    },
+    "fast_melt_front_advisor": {
+        "n_candidates": 50,
+        "candidates": [
+            {
+                "candidate_id": 1,
+                "vertex_idx": 0,
+                "coord_mm": [
+                    -75.0,
+                    -37.5,
+                    0.6
+                ],
+                "coord_m": [
+                    -0.075,
+                    -0.0375,
+                    0.0006
+                ],
+                "flow_length_m": 0.167709,
+                "flow_length_norm": 1.0,
+                "delta_P_Pa": 111806177.18,
+                "delta_P_MPa": 111.8062,
+                "tau_wall_Pa": 133333.33,
+                "fill_time_s": 17.1887
+            },
+            {
+                "candidate_id": 2,
+                "vertex_idx": 1,
+                "coord_mm": [
+                    -75.0,
+                    37.5,
+                    0.6
+                ],
+                "coord_m": [
+                    -0.075,
+                    0.0375,
+                    0.0006
+                ],
+                "flow_length_m": 0.167709,
+                "flow_length_norm": 1.0,
+                "delta_P_Pa": 111806177.18,
+                "delta_P_MPa": 111.8062,
+                "tau_wall_Pa": 133333.33,
+                "fill_time_s": 17.1887
+            },
+            {
+                "candidate_id": 3,
+                "vertex_idx": 2,
+                "coord_mm": [
+                    -75.0,
+                    -37.5,
+                    -0.6
+                ],
+                "coord_m": [
+                    -0.075,
+                    -0.0375,
+                    -0.0006
+                ],
+                "flow_length_m": 0.167709,
+                "flow_length_norm": 1.0,
+                "delta_P_Pa": 111806177.18,
+                "delta_P_MPa": 111.8062,
+                "tau_wall_Pa": 133333.33,
+                "fill_time_s": 17.1887
+            },
+            {
+                "candidate_id": 4,
+                "vertex_idx": 3,
+                "coord_mm": [
+                    75.0,
+                    -37.5,
+                    -0.6
+                ],
+                "coord_m": [
+                    0.075,
+                    -0.0375,
+                    -0.0006
+                ],
+                "flow_length_m": 0.167709,
+                "flow_length_norm": 1.0,
+                "delta_P_Pa": 111806177.18,
+                "delta_P_MPa": 111.8062,
+                "tau_wall_Pa": 133333.33,
+                "fill_time_s": 17.1887
+            },
+            {
+                "candidate_id": 5,
+                "vertex_idx": 4,
+                "coord_mm": [
+                    -75.0,
+                    37.5,
+                    -0.6
+                ],
+                "coord_m": [
+                    -0.075,
+                    0.0375,
+                    -0.0006
+                ],
+                "flow_length_m": 0.167709,
+                "flow_length_norm": 1.0,
+                "delta_P_Pa": 111806177.18,
+                "delta_P_MPa": 111.8062,
+                "tau_wall_Pa": 133333.33,
+                "fill_time_s": 17.1887
+            },
+            {
+                "candidate_id": 6,
+                "vertex_idx": 5,
+                "coord_mm": [
+                    75.0,
+                    37.5,
+                    0.6
+                ],
+                "coord_m": [
+                    0.075,
+                    0.0375,
+                    0.0006
+                ],
+                "flow_length_m": 0.167709,
+                "flow_length_norm": 1.0,
+                "delta_P_Pa": 111806177.18,
+                "delta_P_MPa": 111.8062,
+                "tau_wall_Pa": 133333.33,
+                "fill_time_s": 17.1887
+            },
+            {
+                "candidate_id": 7,
+                "vertex_idx": 6,
+                "coord_mm": [
+                    75.0,
+                    -37.5,
+                    0.6
+                ],
+                "coord_m": [
+                    0.075,
+                    -0.0375,
+                    0.0006
+                ],
+                "flow_length_m": 0.167709,
+                "flow_length_norm": 1.0,
+                "delta_P_Pa": 111806177.18,
+                "delta_P_MPa": 111.8062,
+                "tau_wall_Pa": 133333.33,
+                "fill_time_s": 17.1887
+            },
+            {
+                "candidate_id": 8,
+                "vertex_idx": 7,
+                "coord_mm": [
+                    75.0,
+                    37.5,
+                    -0.6
+                ],
+                "coord_m": [
+                    0.075,
+                    0.0375,
+                    -0.0006
+                ],
+                "flow_length_m": 0.167709,
+                "flow_length_norm": 1.0,
+                "delta_P_Pa": 111806177.18,
+                "delta_P_MPa": 111.8062,
+                "tau_wall_Pa": 133333.33,
+                "fill_time_s": 17.1887
+            }
+        ],
+        "filling_index": {
+            "face_centroids": [
+                [
+                    -0.07500000298023224,
+                    -0.012500000496705374,
+                    0.00020000000949949026
+                ],
+                [
+                    -0.025000000993410747,
+                    -0.03750000149011612,
+                    -0.00020000000949949026
+                ],
+                [
+                    -0.07500000298023224,
+                    0.012500000496705374,
+                    -0.00020000000949949026
+                ],
+                [
+                    -0.025000000993410747,
+                    -0.012500000496705374,
+                    -0.0006000000284984708
+                ],
+                [
+                    -0.025000000993410747,
+                    0.012500000496705374,
+                    0.0006000000284984708
+                ],
+                [
+                    0.025000000993410747,
+                    -0.03750000149011612,
+                    0.00020000000949949026
+                ],
+                [
+                    0.025000000993410747,
+                    -0.012500000496705374,
+                    0.0006000000284984708
+                ],
+                [
+                    -0.025000000993410747,
+                    0.03750000149011612,
+                    0.00020000000949949026
+                ],
+                [
+                    0.025000000993410747,
+                    0.012500000496705374,
+                    -0.0006000000284984708
+                ],
+                [
+                    0.025000000993410747,
+                    0.03750000149011612,
+                    -0.00020000000949949026
+                ],
+                [
+                    0.07500000298023224,
+                    -0.012500000496705374,
+                    -0.00020000000949949026
+                ],
+                [
+                    0.07500000298023224,
+                    0.012500000496705374,
+                    0.00020000000949949026
+                ]
+            ],
+            "FI_tensor": [
+                0.5527291648233641,
+                0.10554418778812591,
+                0.5527291648233641,
+                0.0,
+                0.0,
+                0.10554418778812591,
+                0.0,
+                0.10554418778812591,
+                0.0,
+                0.10554418778812591,
+                0.5527291648233641,
+                0.5527291648233641
+            ],
+            "late_fill_mask": [
+                false,
+                true,
+                false,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                false,
+                false
+            ],
+            "n_late_fill_faces": 8,
+            "total_faces": 12,
+            "late_fill_ratio": 0.6667,
+            "vtk_filling_index": "d:\\Open_code_project\\injection_mold_flow\\validation_test\\VTK\\filling_index.vtk"
+        },
+        "material_viscosity_pa_s": 320.0,
+        "injection_speed_mps": 0.25,
+        "status": "SUCCESS",
+        "version": "Phase8"
+    },
+    "target_mesh_cells": 500000
+}

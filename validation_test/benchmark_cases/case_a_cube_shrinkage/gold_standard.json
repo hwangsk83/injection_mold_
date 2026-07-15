@@ -1,0 +1,26 @@
+{
+    "case_name": "Cube Isotropic PvT Shrinkage",
+    "description": "10mm PC cube cooling from Tm=573.15K to Teject=353.15K under P=0.1MPa",
+    "material": "PC",
+    "input": {
+        "cube_edge_mm": 10.0,
+        "melt_temp_K": 573.15,
+        "eject_temp_K": 353.15,
+        "ambient_pressure_Pa": 101325.0,
+        "material_db_key": "Generic.PC"
+    },
+    "expected_output": {
+        "expected_dL_mm": 0.624074,
+        "expected_shrinkage_pct": 6.2407,
+        "expected_final_edge_mm": 9.3759
+    },
+    "tolerance": {
+        "dL_mm": 1e-06,
+        "shrinkage_pct": 1e-06
+    },
+    "computation": {
+        "method": "Modified Tait PvT: dL = L0 * (v(Tmelt)/v(Teject))^(1/3) - L0",
+        "reference": "StandardSim 2024 R2 standard benchmark",
+        "version": "1.0"
+    }
+}

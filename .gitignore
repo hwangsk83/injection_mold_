@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+.venv/
+
+# STL / Mesh - 대용량 바이너리
+*.stl
+*.npy
+*.vtk
+*.vtu
+*.csv
+*.dat
+*.inp
+*.frd
+
+# Build artifacts
+*.exe
+*.dll
+*.lib
+*.a
+*.obj
+build/
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Case results
+validation_test/**/processor*/
+validation_test/**/VTK/**/*
+dummy_mold_case/**/processor*/
+dummy_mold_case/**/VTK/**/*
+*.png
+*.pptx
+
+# Logs
+*.log
+*.bat
+*.sh
+*.ps1
+
+# OpenFOAM
+**/constant/polyMesh/**
+**/0/*
+**/0.orig/*
+
+# OpenFOAM Time Directories (Numerical)
+validation_test/[0-9]*/
+validation_test/0.*/
+dummy_mold_case/[0-9]*/
+dummy_mold_case/0.*/
+
+# Reports and JSON/CSV audit results
+*report.json
+*report.html
+*result.json
+*results.csv
+audit_report.json
+solver_monitor.csv
+vv_history.json

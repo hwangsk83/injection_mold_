@@ -1,0 +1,5 @@
+SOURCE += titanFoam.C
+
+EXE = $(FOAM_USER_APPBIN)/titanFoam
+EXE_INC += -DLIBS_TO_LOAD="\"OpenFOAM,finiteVolume,meshTools\""
+SOURCE += version_of_build.rc

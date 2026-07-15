@@ -1,0 +1,28 @@
+{
+    "case_name": "Cantilever Beam Asymmetric Cooling Warpage",
+    "description": "80x10x4mm PC cantilever beam with 50K top/bottom temperature gradient",
+    "material": "PC+GF20",
+    "input": {
+        "beam_length_mm": 80.0,
+        "beam_width_mm": 10.0,
+        "beam_height_mm": 4.0,
+        "T_top_K": 353.15,
+        "T_bottom_K": 303.15,
+        "delta_T_K": 50.0,
+        "CTE_MD_1_K": 3.2e-05,
+        "material_db_key": "Generic.PC+GF20"
+    },
+    "expected_output": {
+        "expected_delta_max_mm": 1.15904,
+        "expected_curvature_1_m": 0.3622
+    },
+    "tolerance": {
+        "delta_max_mm": 1e-06,
+        "curvature_1_m": 1e-06
+    },
+    "computation": {
+        "method": "Bimetallic strip analogy: delta = alpha*deltaT*L^2/(2*h)",
+        "reference": "Abaqus 2024 verification benchmark VM-15",
+        "version": "1.0"
+    }
+}

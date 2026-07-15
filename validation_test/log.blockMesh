@@ -1,0 +1,80 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+/*   Windows 32 and 64 bit porting by blueCAPE: http://www.bluecape.com.pt   *\
+|  Based on Windows porting (2.0.x v4) by Symscape: http://www.symscape.com   |
+\*---------------------------------------------------------------------------*/
+Build  : 12-8e8552546d20
+Exec   : D:/Program-Files/blueCFD-Core-2024/OpenFOAM-12/platforms/mingw_w64Gcc122DPInt32Opt/bin/blockMesh.exe
+Date   : May 31 2026
+Time   : 15:54:46
+Host   : "SAM1H"
+PID    : 12316
+I/O    : uncollated
+Case   : D:/Open_code_project/injection_mold_flow/validation_test
+nProcs : 1
+SigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Deleting polyMesh directory
+    "D:/Open_code_project/injection_mold_flow/validation_test/constant/polyMesh"
+Reading "blockMeshDict"
+
+Creating block mesh from
+    "system/blockMeshDict"
+Creating block edges
+No non-planar block faces defined
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 0
+		Number of boundary faces : 6
+		Number of defined boundary faces : 6
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 0.001
+    Block 0 cell size :
+        i : 0.005
+        j : 0.005
+        k : 0.0002 .. 0.0002
+
+No patch pairs to merge
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (0 0 0) (0.15 0.075 0.0012)
+  nPoints: 3472
+  nCells: 2700
+  nFaces: 8820
+  nInternalFaces: 7380
+----------------
+Patches
+----------------
+  patch 0 (start: 7380 size: 90) name: gate_inlet
+  patch 1 (start: 7470 size: 90) name: outlet
+  patch 2 (start: 7560 size: 1260) name: walls
+
+End
+

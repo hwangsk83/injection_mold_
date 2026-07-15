@@ -1,0 +1,18 @@
+FoamFile { version 2.0; format ascii; class dictionary; object transportProperties; }
+CrossWLFCoeffs
+{
+    D1      1.2e14;
+    D2      263.15;
+    D3      0;
+    A1      25.5;
+    A2      0.16;
+}
+TaitCoeffs
+{
+    b1m     0.001;
+    b2m     1e-6;
+    b3m     1.2e8;
+    b4m     0.004;
+    b5      263.15;
+    C_tait  0.0894;
+}

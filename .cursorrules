@@ -1,0 +1,3 @@
+# Workspace Rules
+
+- **Do Not Read Mesh Files**: Never read or open mesh point clouds or STL (.stl) files. Reading these large binary or dense data files can consume excessive token contexts, slow down processing, or cause system errors.

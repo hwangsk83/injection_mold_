@@ -1,0 +1,28 @@
+{
+    "case_name": "Thin Plate Hele-Shaw Fill",
+    "description": "100x50x2mm PC plate filling under 80MPa injection pressure",
+    "material": "PC",
+    "input": {
+        "plate_length_mm": 100.0,
+        "plate_width_mm": 50.0,
+        "plate_thickness_mm": 2.0,
+        "injection_pressure_MPa": 80.0,
+        "melt_temp_K": 573.15,
+        "mold_temp_K": 353.15,
+        "material_db_key": "Generic.PC"
+    },
+    "expected_output": {
+        "expected_t_fill_s": 0.133064,
+        "expected_max_fill_length_mm": 100.0,
+        "expected_inlet_pressure_MPa": 80.0
+    },
+    "tolerance": {
+        "t_fill_s": 1e-06,
+        "pressure_MPa": 1e-06
+    },
+    "computation": {
+        "method": "Hele-Shaw: t_fill = 12*eta*L^2/(h^2*P)",
+        "reference": "Tadmor & Gogos 'Principles of Polymer Processing' 2nd Ed.",
+        "version": "1.0"
+    }
+}

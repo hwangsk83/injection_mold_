@@ -1,0 +1,46 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+/*   Windows 32 and 64 bit porting by blueCAPE: http://www.bluecape.com.pt   *\
+|  Based on Windows porting (2.0.x v4) by Symscape: http://www.symscape.com   |
+\*---------------------------------------------------------------------------*/
+Build  : 12-8e8552546d20
+Exec   : foamToVTK -ascii -fields (U p T alpha)
+Date   : May 29 2026
+Time   : 23:32:27
+Host   : "SAM1H"
+PID    : 19428
+I/O    : uncollated
+Case   : d:/Open_code_project/injection_mold_flow/validation_test
+nProcs : 1
+SigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Deleting old VTK files in "d:/Open_code_project/injection_mold_flow/validation_test/VTK"
+
+Time: 0
+    volScalarFields            : T alpha p
+    volVectorFields            : U
+
+    Internal  : "d:/Open_code_project/injection_mold_flow/validation_test/VTK/validation_test_0.vtk"
+    Original cells:8000 points:9471   Additional cells:0  additional points:0
+
+Combining patches:
+    patch 0 gate_inlet
+    patch 1 outlet
+    patch 2 walls
+    Patch     : "d:/Open_code_project/injection_mold_flow/validation_test/VTK/gate_inlet/gate_inlet_0.vtk"
+    Patch     : "d:/Open_code_project/injection_mold_flow/validation_test/VTK/outlet/outlet_0.vtk"
+    Patch     : "d:/Open_code_project/injection_mold_flow/validation_test/VTK/walls/walls_0.vtk"
+End
+
