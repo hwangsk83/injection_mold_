@@ -76,13 +76,10 @@
 - **라이센스**: OpenFOAM 프레임워크와의 결합성 및 `openInjMoldSim` 구현 기법의 유산에 따라, C++ 솔버 부문은 **GNU GPLv3 (GNU General Public License v3)** 라이센스가 전면 적용됩니다. 해당 소스코드의 복제, 수정 및 배포 시 GPLv3 라이센스 조항을 준수해야 합니다.
 - **원작 저작권 명시**: 이 프로그램은 자유 소프트웨어입니다. GNU 일반 공중 사용 허가서(GPLv3)에 명시된 조항에 따라 재배포 및 수정을 할 수 있습니다.
 
-### 2. 독자적 Python 및 AI 응용 어시스턴트 코드 (MIT 라이센스 적용, 표절 무관)
+### 2.  Python 및 AI 응용  코드 (MIT 라이센스)
 - **대상 파일/폴더**: 루트의 모든 Python 스크립트(예: `app.py`, `ai_material_synthesizer.py`, `cognitive_tuning_engine.py`, `report_generator.py` 등) 및 `core_utils/`, `ui_components/` 폴더
-- **표절 검증 결과**:
-  - 해당 Python 코드들은 `openInjMoldSim` 오픈소스에 존재하지 않는, **사용자와 AI가 독자적으로 설계 및 개발한 고유 저작물**입니다.
-  - Gaussian Process Bayesian Optimization 기반 자동 튜닝 엔진, AI 기반 수지 데이터 시뮬레이터(Surrogate Model), CAD STL 클리너 및 격자망 최적화 알고리즘, FastAPI/Celery 비동기 작업 관리, PPTX/HTML 리포트 자동 생성 엔진 등은 기존 오픈소스 솔버와 기능적/코드적 중복이 없으며 완벽한 오리지널 코드입니다.
-  - 이 Python 패키지는 GPLv3 라이센스의 솔버를 외부 프로세스(Subprocess) 호출 방식으로만 결합하여 통신하므로 독자적인 라이센스를 부여받을 수 있습니다.
-- **라이센스**: 사용자의 오리지널 AI 기여분을 자유롭게 활용할 수 있도록 **MIT License**를 적용하여 공개합니다.
+  - Gaussian Process Bayesian Optimization 기반 자동 튜닝 엔진, AI 기반 수지 데이터 시뮬레이터(Surrogate Model), CAD STL 클리너 및 격자망 최적화 알고리즘, FastAPI/Celery 비동기 작업 관리, PPTX/HTML 리포트 자동 생성 엔진 
+
 
 ### 3. 상표권 귀속 고지 (Trademark Attribution)
 - **blueCFD-Core®** 및 **blueCFD®**는 **blueCAPE Lda.**의 등록상표입니다. 본 프로젝트 및 개발자는 blueCAPE Lda.와 아무런 공식 제휴, 후원 또는 보증 관계가 없으며, 사용자의 PC 환경에 기 설치된 blueCFD-Core 환경 변수를 활용하여 작동합니다.
