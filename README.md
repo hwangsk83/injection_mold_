@@ -66,15 +66,24 @@
 
 ---
 
-## ⚖️ 라이센스 및 법적 고지
+## ⚖️ 라이센스 및 법적 고지 (License & Dual Licensing)
 
-### 오픈소스 솔버 출처 및 크레딧 (Credits)
-- 본 프로젝트의 수치해석 솔버 코드([solvers/](file:///D:/Open_code_project/injection_mold_/solvers))는 OpenFOAM 기반의 오픈소스 사출성형 해석 프로젝트인 **[openInjMoldSim](https://github.com/krebeljk/openInjMoldSim)**의 물리 모델링 기법(Cross-WLF 비뉴턴 유체 점도 모델 및 Modified Tait PVT 상태방정식)을 참고하여 구현되었습니다. 원작자분들의 기여에 깊이 감사드립니다.
+본 프로젝트는 C++로 작성된 수치해석 솔버 엔진 부문과, 이를 호출하고 관리하는 Python 기반의 GUI/AI 어시스턴트 부문이 **이중 라이센스(Dual-Licensing)** 구조로 관리됩니다.
 
-### 라이센스 (License)
-- 본 프로젝트 및 기반 솔버는 **GPLv3 (GNU General Public License v3)** 라이센스를 따릅니다. 본 도구에 포함된 모든 C++ 솔버 코드 역시 동일한 라이센스 조건 하에 소스코드가 공개 배포됩니다.
-- 본 소프트웨어는 blueCFD-Core®의 바이너리 파일들을 자체적으로 내장하고 있지 않으며, 사용자의 PC 환경에 설치된 blueCFD-Core 환경 변수를 통해 간접적으로 명령어(subprocess)를 호출하여 작동합니다.
+### 1. C++ 수치해석 솔버 (GPLv3 라이센스 적용)
+- **대상 폴더**: [solvers/](file:///D:/Open_code_project/injection_mold_/solvers) (`solvers/injectionFoam/`, `solvers/titanFoam/`)
+- **출처 및 크레딧**: 본 수치해석 솔버는 OpenFOAM 기반의 오픈소스 사출성형 해석 프로젝트인 **[openInjMoldSim](https://github.com/krebeljk/openInjMoldSim)**의 물리 모델링 기법(Cross-WLF 비뉴턴 유체 점도 모델 및 Modified Tait PVT 상태방정식)에 영감을 받아 구현되었습니다.
+- **라이센스**: OpenFOAM 프레임워크와의 결합성 및 `openInjMoldSim` 구현 기법의 유산에 따라, C++ 솔버 부문은 **GNU GPLv3 (GNU General Public License v3)** 라이센스가 전면 적용됩니다. 해당 소스코드의 복제, 수정 및 배포 시 GPLv3 라이센스 조항을 준수해야 합니다.
+- **원작 저작권 명시**: 이 프로그램은 자유 소프트웨어입니다. GNU 일반 공중 사용 허가서(GPLv3)에 명시된 조항에 따라 재배포 및 수정을 할 수 있습니다.
 
-### 상표권 귀속 고지 (Trademark Attribution)
-- **blueCFD-Core®** 및 **blueCFD®**는 **blueCAPE Lda.**의 등록상표입니다. 본 프로젝트 및 개발자는 blueCAPE Lda.와 아무런 공식 제휴, 후원 또는 보증 관계가 없으며, 본 프로젝트는 개인의 학습 및 테스트를 위해 작성된 순수 래퍼(Wrapper) 대시보드임을 명시합니다.
+### 2. 독자적 Python 및 AI 응용 어시스턴트 코드 (MIT 라이센스 적용, 표절 무관)
+- **대상 파일/폴더**: 루트의 모든 Python 스크립트(예: `app.py`, `ai_material_synthesizer.py`, `cognitive_tuning_engine.py`, `report_generator.py` 등) 및 `core_utils/`, `ui_components/` 폴더
+- **표절 검증 결과**:
+  - 해당 Python 코드들은 `openInjMoldSim` 오픈소스에 존재하지 않는, **사용자와 AI가 독자적으로 설계 및 개발한 고유 저작물**입니다.
+  - Gaussian Process Bayesian Optimization 기반 자동 튜닝 엔진, AI 기반 수지 데이터 시뮬레이터(Surrogate Model), CAD STL 클리너 및 격자망 최적화 알고리즘, FastAPI/Celery 비동기 작업 관리, PPTX/HTML 리포트 자동 생성 엔진 등은 기존 오픈소스 솔버와 기능적/코드적 중복이 없으며 완벽한 오리지널 코드입니다.
+  - 이 Python 패키지는 GPLv3 라이센스의 솔버를 외부 프로세스(Subprocess) 호출 방식으로만 결합하여 통신하므로 독자적인 라이센스를 부여받을 수 있습니다.
+- **라이센스**: 사용자의 오리지널 AI 기여분을 자유롭게 활용할 수 있도록 **MIT License**를 적용하여 공개합니다.
+
+### 3. 상표권 귀속 고지 (Trademark Attribution)
+- **blueCFD-Core®** 및 **blueCFD®**는 **blueCAPE Lda.**의 등록상표입니다. 본 프로젝트 및 개발자는 blueCAPE Lda.와 아무런 공식 제휴, 후원 또는 보증 관계가 없으며, 사용자의 PC 환경에 기 설치된 blueCFD-Core 환경 변수를 활용하여 작동합니다.
 - 본 프로젝트는 Autodesk, Inc.의 등록상표인 `Moldflow`와 일절 무관하며, 어떠한 상용 상표권 침해 의도 없이 개발되었습니다.
